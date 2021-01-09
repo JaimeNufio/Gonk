@@ -22,25 +22,5 @@ async def rename(self, message):
         #await message.reply(content='{}\'s nickname was updated to "{}".'.format(curr,name),mention_author=True)
         await message.channel.send(content='{}\'s nickname was updated to "{}".'.format(target,name))
 
-        utils.updateJSON(message.channel.guild.id,target,name)
+        utils.updateNickNamesJSON(message.channel.guild.id,target,name)
     
-        # temp = {}
-        
-        # with open("././records/names.json","r") as file: 
-
-        #     temp = json.load(file)
-
-        # with open("././records/names.json","w") as file:
-
-        #     serverID = message.channel.guild.id
-
-        #     if serverID not in temp.keys():
-        #         temp[ serverID ] = {}
-
-        #     if target not in temp[ serverID ].keys():
-        #         temp[ serverID ][ target ] = []
-
-        #     temp[ serverID ][ target ].append( name )
-
-        #     json.dump(temp,file,indent=2)
-  
