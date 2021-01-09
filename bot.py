@@ -1,5 +1,6 @@
 import discord
 import commands.basekit as shell 
+import json
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -13,5 +14,11 @@ class MyClient(discord.Client):
         await shell.handle(self, message)
 
 
+token = ""
+
+with open("credentials.json","r") as file:
+    creds = json.load(file)
+    token = creds['token']
+
 client = MyClient()
-client.run('NzkzMTUyMzI2NjQxNjQ3NjU2.X-oGqg.beni3vCM4AgaXu8bGWI3dDAGqhw')
+client.run(token)
