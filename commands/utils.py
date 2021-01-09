@@ -40,5 +40,5 @@ def gatherUserByID(userID):
     for i in collected:
         print(collected)
 
-gatherUserByID('memberID')
+#gatherUserByID('memberID')
 #updateJSON("serverID_1","memberID","nickname6")
