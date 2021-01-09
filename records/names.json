@@ -1,0 +1,25 @@
+{
+  "serverID": {
+    "memberID": {
+      "nicknames": [
+        "nickname",
+        "nickname1",
+        "nickname2",
+        "nickname3"
+      ]
+    },
+    "memberID_1": {
+      "nicknames": [
+        "nickname1"
+      ]
+    }
+  },
+  "serverID_1": {
+    "memberID": {
+      "nicknames": [
+        "nickname3",
+        "nickname6"
+      ]
+    }
+  }
+}
