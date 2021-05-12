@@ -25,7 +25,7 @@ Returns an array of known nicknames for selected user. Lists reasons if one exis
 
 ### addquote
 
-> `/ addquote user quote [reason]`
+`/ addquote user quote [reason]`
 
 Stores a new ```quote``` attributed to ```user```. Documenting with ```reason``` is optional.
 
