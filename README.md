@@ -2,7 +2,7 @@
 
 Discord Bot for my personal Servers.
 
-![alt text](assets\loggedin.png)
+![alt text](https://raw.githubusercontent.com/JaimeNufio/Gonk/main/assets/loggedin.png)
 
 ## New Features:
 - Slash Commands 
