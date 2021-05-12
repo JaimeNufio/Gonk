@@ -1,10 +1,9 @@
 import discord
-from . import rename, utils
+from . import utils
+from . import quotes
+from . import rename
 
 async def handle(obj, message):
-
-    if message.content[0] != "🐚": #Not a :shell: command
-        return
 
     split = (message.content).lower().split(" ")
 
@@ -13,3 +12,11 @@ async def handle(obj, message):
 
     if split[1] == "rename":
         await rename.rename(obj,message)
+
+    if split[1] == "addquote":
+        await quotes.addquote(obj,message)
+
+    #option to specify user.
+    #option to specify server.
+    if split[1] == "randomquote":
+        await quotes.randomquote(obj,message)

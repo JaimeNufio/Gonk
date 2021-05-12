@@ -1,52 +1,55 @@
 import json
+from datetime import datetime
+from dateutil import parser
 
-def updateNickNamesJSON(serverID,memberID,name):
-    temp = {}
+def options(string,option,value="",values=[]):
+    #todo, handle values passed with options
 
-    serverID = str(serverID)
-    memberID = str(memberID)
-    name = str(name)
+    parts = string.lower().split(" ")
+
+    for part in parts:
+        if part == option and value == "":
+            return True
+
+    if value != "":
+        #TODO
+        print("Option found, Value not 0")
+        return True
     
-    with open("././records/names.json","r") as file: 
-        temp = json.load(file)
-
-    print(temp)
-
-    with open("././records/names.json","w") as file:
-
-
-        if serverID not in temp.keys():
-            print("Server [{}] is unknown to bot.".format(serverID))
-            temp[ serverID ] = {}
-
-        if memberID not in temp[ serverID ].keys():
-            print("Member [{}] is unknown in server.".format(memberID))
-            temp[ serverID ][ memberID ] = {}
-
-        if "nicknames" not in temp[ serverID ][ memberID ].keys():
-            print("Member [{}] doesn't have a nickname list.".format(memberID))
-            temp[ serverID ][ memberID ]['nicknames'] = []
-
-        temp[ serverID ][ memberID ]['nicknames'].append( name )
-
-        json.dump(temp,file,indent=2)
+    return False
 
 def gatherUserByID(userID):
     temp = {}
+    userID=str(userID)
     
     with open("././records/names.json","r") as file: 
 
         temp = json.load(file)
 
     collected = []
+    collectedReasons = []
 
     for guild in temp.keys():
+        print("Guild:",guild)
+        print()
         if userID in temp[guild].keys():
+            print("NN list")
+            print(temp[guild][userID]['nicknames'])
             for nickname in temp[guild][userID]['nicknames']:
                 collected.append(nickname)
+            for reason in temp[guild][userID]['reasons']:
+                collectedReasons.append(reason)
 
     for i in collected:
-        print(collected)
+        print(i)
+    return [collected,collectedReasons]
 
-#gatherUserByID('memberID')
-#updateJSON("serverID_1","memberID","nickname6")
+def prettydate(x):
+    if not x or x == "":
+        return "Date Not Found"
+
+    dt = parser.parse(x)
+
+    pretty = "{}/{}/{} {}:{}".format(dt.month,dt.day,dt.year,dt.hour,dt.min)
+    print(pretty)
+    return pretty
