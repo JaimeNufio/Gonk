@@ -1,13 +1,15 @@
 import discord
 import re
 import json
-
+from datetime import datetime
 from discord import message
 from . import utils
 
-async def rename_target(ctx,msg,author,target,nickname,reason="N/A"):
+async def rename_target(ctx,author,target,nickname,reason=""):
 
     print(target.name+" ? "+author.name)
+
+    currName = target.display_name
 
     if target.name == author.name:
         await ctx.send('Can\'t rename yourself!')
@@ -20,9 +22,8 @@ async def rename_target(ctx,msg,author,target,nickname,reason="N/A"):
 
         print("Will rename user to {}".format(nickname))
         await target.edit(nick=nickname)
-        await ctx.send(content='{}\'s nickname was updated to "{}". \nReason: {}'.format(target.name,nickname,reason))
 
-        updateNickNamesJSON(ctx.channel.guild.id,target.id,nickname,reason,ctx.guild.name)
+        await updateNickNamesJSON(ctx,target,nickname,reason,author,currName)
 
 async def get_nicknames(ctx,target):
     items = utils.gatherUserByID(target.id)
@@ -37,35 +38,52 @@ async def get_nicknames(ctx,target):
         await ctx.send("An error occured, chances are there just aren't nicknames for this user.\n\
         idk. Bug Jaime about this.")
    
-def updateNickNamesJSON(serverID,memberID,name,reason,serverName):
+async def updateNickNamesJSON(ctx,target,name,reason,author,currName=""):
+    
     temp = {}
-
-    serverID = str(serverID)
-    memberID = str(memberID)
+    
+    serverID = str(ctx.channel.guild.id)
+    memberID = str(target.id)
+    serverName = ctx.guild.name
     name = str(name)
     reason = str(reason)
     
     with open("././records/names.json","r") as file: 
+    
         temp = json.load(file)
 
     with open("././records/names.json","w") as file:
 
-        if serverID not in temp.keys():
-            print("Server [{}] is unknown to bot.".format(serverID))
-            temp[ serverID ] = {}
-            temp[serverID]['meta'] = {}
-            temp[serverID]['meta']['name'] = serverName
+        obj = {
+            "user":memberID,
+            "nickname":name,
+            "reason":reason,
+            "renamer":str(author.id),
+            "when":str(datetime.now() ),
+            "serverid":str(serverID),
+            "servername":serverName,
+            "currentname":currName
+        }
 
-        if memberID not in temp[ serverID ].keys():
-            print("Member [{}] is unknown in server.".format(memberID))
-            temp[ serverID ][ memberID ] = {}
+        if memberID not in temp.keys():
+            temp[memberID] = []
 
-        if "nicknames" not in temp[ serverID ][ memberID ].keys():
-            print("Member [{}] doesn't have a nickname list.".format(memberID))
-            temp[ serverID ][ memberID ]['nicknames'] = []
-            temp[ serverID ][ memberID ]['reasons'] = []
-
-        temp[ serverID ][ memberID ]['nicknames'].append( name )
-        temp[ serverID ][ memberID ]['reasons'].append( reason )
+        temp[ memberID ].append( obj )
 
         json.dump(temp,file,indent=2)
+
+        await embededRenameStore(ctx,obj,target,author)
+
+#Only call when storing, I guess.
+async def embededRenameStore(ctx,obj,target,author):
+
+    print(obj)
+
+    embed=discord.Embed(title="", url=author.avatar_url, color=author.color)
+    embed.set_author(name="{} renamed {}".format(author.display_name,obj['currentname']), icon_url=author.avatar_url)
+    embed.set_thumbnail(url=target.avatar_url)
+
+    if "currentname" in obj.keys():
+        embed.add_field(name="Previous Name:", value=obj['currentname'], inline=True)
+    embed.add_field(name="New Name:", value=obj['nickname'], inline=True)
+    await ctx.send(embed=embed)

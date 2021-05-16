@@ -1,55 +1,96 @@
 {
-  "529806622105665556": {
-    "meta": {
-      "name": "Aperture Testing Grounds"
+  "287837534182965250": [
+    {
+      "user": "287837534182965250",
+      "nickname": "AH",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-05-16 01:34:08.692135",
+      "serverid": "529806622105665556",
+      "servername": "Aperture Testing Grounds",
+      "currentname": "mrSandman_"
     },
-    "793152326641647656": {
-      "nicknames": [
-        "GONK",
-        "\ud83e\udd21 CLOWN FACE",
-        "Gonk"
-      ],
-      "reasons": [
-        "N/A",
-        "Dumb droid",
-        "reset"
-      ]
+    {
+      "user": "287837534182965250",
+      "nickname": "rename",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-05-16 01:34:50.410761",
+      "serverid": "529806622105665556",
+      "servername": "Aperture Testing Grounds",
+      "currentname": "mrSandman_"
+    },
+    {
+      "user": "287837534182965250",
+      "nickname": "Yarjelis",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-05-16 01:36:00.089234",
+      "serverid": "529806622105665556",
+      "servername": "Aperture Testing Grounds",
+      "currentname": "mrSandman_"
+    },
+    {
+      "user": "287837534182965250",
+      "nickname": "Test",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-05-16 01:38:36.452809",
+      "serverid": "529806622105665556",
+      "servername": "Aperture Testing Grounds",
+      "currentname": "Yarjelis"
     }
-  },
-  "537130653129375744": {
-    "meta": {
-      "name": "Bench Buddies LLC"
+  ],
+  "842948063139987476": [
+    {
+      "user": "842948063139987476",
+      "nickname": "new Gonk",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-05-16 11:37:43.895118",
+      "serverid": "529806622105665556",
+      "servername": "Aperture Testing Grounds",
+      "currentname": "Gonk"
     },
-    "182586772876689419": {
-      "nicknames": [
-        "fart",
-        "Chicky Nuggie \ud83d\udc23"
-      ],
-      "reasons": [
-        "N/A",
-        "Jamaica Dude"
-      ]
+    {
+      "user": "842948063139987476",
+      "nickname": "GONK",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-05-16 11:40:08.499195",
+      "serverid": "529806622105665556",
+      "servername": "Aperture Testing Grounds",
+      "currentname": "new Gonk"
     },
-    "793152326641647656": {
-      "nicknames": [
-        "\"idiot\""
-      ],
-      "reasons": [
-        "N/A"
-      ]
+    {
+      "user": "842948063139987476",
+      "nickname": "gonk",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-05-16 11:44:16.603354",
+      "serverid": "529806622105665556",
+      "servername": "Aperture Testing Grounds",
+      "currentname": "GONK"
+    },
+    {
+      "user": "842948063139987476",
+      "nickname": "gonk?",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-05-16 11:44:51.703232",
+      "serverid": "529806622105665556",
+      "servername": "Aperture Testing Grounds",
+      "currentname": "gonk"
+    },
+    {
+      "user": "842948063139987476",
+      "nickname": "GONK",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-05-16 11:48:28.743243",
+      "serverid": "529806622105665556",
+      "servername": "Aperture Testing Grounds",
+      "currentname": "gonk?"
     }
-  },
-  "617153225476276228": {
-    "meta": {
-      "name": "Wauk"
-    },
-    "348668135445889025": {
-      "nicknames": [
-        "Novato"
-      ],
-      "reasons": [
-        "It means noob!"
-      ]
-    }
-  }
+  ]
 }

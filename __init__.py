@@ -5,7 +5,7 @@ from discord.ext.commands import context
 import commands.basekit as shell 
 from discord.ext import commands
 from discord_slash import SlashCommand, SlashContext
-from discord_slash.utils.manage_commands import create_option
+from discord_slash.utils.manage_commands import create_option, create_choice
 import json
 
 from commands import utils
@@ -17,10 +17,19 @@ intents.members = True
 client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 slash = SlashCommand(client,sync_commands=True)
 
+guild_ids = []
+token = ""
+
+with open("credentials.json","r") as file:
+    creds = json.load(file)
+    token = creds['token']
+    guild_ids = creds['guild_ids']
+
 
 #rename
 @slash.slash(
     name="rename",
+    # guild_ids=guild_ids,
     description="Rename a nerd.",
     options=[
         create_option(
@@ -43,14 +52,15 @@ slash = SlashCommand(client,sync_commands=True)
         ),
     ]
 )
-async def rename(ctx,target,nickname:str,reason="N/A"):
+async def rename(ctx,target,nickname:str,reason=""):
     print(type(target))
     print(type(ctx.author))
     author = ctx.author
     msg = ctx.message
-    await renameModule.rename_target(ctx,msg,author,target,nickname,reason)
+    await renameModule.rename_target(ctx,author,target,nickname,reason)
 
 @slash.slash(
+    # guild_ids=guild_ids,
     name="getnicknames",
     description="Return a list of nicknames given to this loser.",
     options=[
@@ -70,6 +80,7 @@ async def getnicknames(ctx,target):
     await renameModule.get_nicknames(ctx,target)
 
 @slash.slash(
+    # guild_ids=guild_ids,
     name="addquote",
     description="Immortalize some bullshit some idiot said.",
     options=[
@@ -93,20 +104,51 @@ async def getnicknames(ctx,target):
         ),
     ]
 )
-async def addquote(ctx,target,quote,context="N/A"):
-    await quotesModule.addquote(ctx,target,quote,context)
+async def addquote(ctx,target,quote,context=""):
+    print(quote)
+    await quotesModule.addquote(ctx,target,quote,context,ctx.author)
 
-
+@slash.slash(
+    name="getquote",
+    # guild_ids=guild_ids,
+    description="Reflect back on the best things people said.",
+    options=[
+        create_option(
+            name="where",
+            description="Consider quotes from all known servers?",
+            option_type=3,
+            required=True,
+            choices=[
+            create_choice(
+                name="Known Servers",
+                value="0"
+            ),
+            create_choice(
+                name="This Server Only",
+                value="1"
+            )
+        ]),
+        create_option(
+            name="target",
+            description="Specify a user. If not, will be random.",
+            option_type=6,
+            required=False
+        )
+    ]
+)
+async def getquote(ctx,target="",where="0"):
+    # new paradigm. 
+    # opt specific user, if not from server
+    # opt anywhere, if specific user get it from the all list, if no specific user, random from all list
+    # if neither, random from server
+    print(where,target)
+    if where == "0":
+        quotesModule.getquotehere(ctx,target.id)
+    else:
+        quotesModule.getquoteall(ctx,target.id)
 
 @client.event
 async def on_ready():
     print('Logged on as {0}!'.format(client.user))
-
-token = ""
-
-with open("credentials.json","r") as file:
-    creds = json.load(file)
-    token = creds['token']
-
 
 client.run(token)

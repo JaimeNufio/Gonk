@@ -1,22 +1,23 @@
+from logging import exception
+from warnings import catch_warnings
 import discord
 import re
 import json
 import random
 from datetime import datetime
+
+from discord_slash import context
 from . import utils
 
 # :shell: addquote @User "Phrase"
-async def addquote(ctx,target,quote,context):
+async def addquote(ctx,target,quote,context,by):
 
     print("Adding quote '{}' from {}".format(quote,target.name))
 
-    updateQuotesJSON(int(ctx.channel.guild.id),target.id,quote,ctx.channel.guild.name,context)
+    #updateQuotesJSON(int(ctx.channel.guild.id),target.id,quote,ctx.channel.guild.name,context,by)
+    await updateQuotesJSON(ctx,target,quote,context,by)
+    #context is a string, the context of the quote.
 
-    embed=discord.Embed(color=0xfa0000)
-    embed.set_thumbnail(url=target.avatar_url)
-    embed.add_field(name="Added {} Quote:".format(target.display_name), value='*\"{}\"*'.format(quote), inline=True)
-    embed.set_footer(text="From Server: \"{}\"".format(ctx.channel.guild.name))
-    await ctx.send(embed=embed)
 
     #await message.channel.send("Roger Rogger. <@{}>".format(target))
 
@@ -85,20 +86,18 @@ async def randomquote(self, message):
     embed.set_footer(text="Quote Added On: {}".format(utils.prettydate(found[1])))
     await message.channel.send(embed=embed)
 
-        
-
-def updateQuotesJSON(serverID,memberID,quote,serverName,context):
+async def updateQuotesJSON(ctx,target,quote,context,by):
     temp = {}
 
-    serverID = str(serverID)
-    memberID = str(memberID)
+    serverID = str(ctx.channel.guild.id)
+    serverName = ctx.channel.name
+    memberID = str(target.id)
     quote = str(quote)
     
     with open("././records/quotes.json","r") as file: 
         temp = json.load(file)
 
     with open("././records/quotes.json","w") as file:
-
 
         if serverID not in temp.keys():
             print("Server [{}] is unknown to bot.".format(serverID))
@@ -108,8 +107,8 @@ def updateQuotesJSON(serverID,memberID,quote,serverName,context):
             temp[serverID]['users'] = {}
 
 
-        if 'all' not in temp[serverID].keys():
-            temp[serverID]['all'] = []
+        # if 'all' not in temp[serverID].keys():
+        #     temp[serverID]['all'] = []
             
         if memberID not in temp[ serverID ]['users'].keys():
             print("Member [{}] is unknown in server.".format(memberID))
@@ -118,10 +117,91 @@ def updateQuotesJSON(serverID,memberID,quote,serverName,context):
         if "quotes" not in temp[ serverID ]['users'][ memberID ].keys():
             print("Member [{}] doesn't have a quote list.".format(memberID))
             temp[ serverID ]['users'][ memberID ]['quotes'] = []
-            temp[ serverID ]['users'][ memberID ]['context'] = []
 
-        temp[ serverID ]['users'][ memberID ]['context'].append(context)
-        temp[ serverID ]['users'][ memberID ]['quotes'].append( tuple([quote,str(datetime.now())]) )
-        temp[serverID]['all'].append( tuple([quote,memberID,str(datetime.now())]) )
+        obj = {
+            "quote":quote,
+            "context":context,
+            "chronicler":by.id,
+            "when":str(datetime.now() ),
+            "where":serverName,
+        }
+
+        #add super "all" list
+        if 'all' not in temp.keys():
+            temp['all'] = {}
+
+        if by.id not in temp['all'].keys():
+            temp['all'][by.id] = []
+
+        temp['all'][by.id].append(obj)
+        # temp[serverID]['all'].append(obj)
+        temp[serverID]['users'][memberID]['quotes'].append(obj)
+
+        #temp[ serverID ]['users'][ memberID ]['context'].append(context)
+        #temp[ serverID ]['users'][ memberID ]['quotes'].append( tuple([quote,str(datetime.now())]) )
+        #temp[serverID]['all'].append( tuple([quote,memberID,str(datetime.now())]) )
 
         json.dump(temp,file,indent=2)
+        await embededQuoteStore(ctx,obj,target,by)
+
+
+async def embededQuoteStore(ctx,obj,target,author):
+
+    print(obj)
+    print(author)
+    print(type(author))
+
+    embed=discord.Embed(title="", url=author.avatar_url, color=author.color)
+    embed.set_author(name="{} added quote for {}".format(author.display_name,target.display_name), icon_url=author.avatar_url)
+    embed.set_thumbnail(url=target.avatar_url)
+    embed.add_field(name="Quote Added:", value=obj['quote'], inline=False)
+    if 'context' in obj.keys() and obj['context']:
+        embed.add_field(name="Context:", value=obj['context'], inline=False)
+    await ctx.send(embed=embed)
+
+# consider only quotes in this server
+def getquotehere(ctx,target):
+
+    temp = {}
+
+    with open("././records/quotes.json","r") as file:
+        temp = json.load(file)
+
+    quoteObj = {}
+
+    try:
+        if target:
+            quoteObj = random.choice(temp[ctx.channel.guild.id]['users'][str(target)]['quotes'])
+        else:
+            user = random.choice(temp[ctx.channel.guild.id]['users'].keys())
+            quoteObj = random.choice(temp[ctx.channel.guild.id]['users'][user]['quotes'])
+    except exception as e:
+        print("Error: "+e)
+        ctx.send("Didn't find anything matching that query.")
+        return
+
+    ctx.send("Found something!")
+    print(quoteObj)
+
+# consider quotes from all
+def getquoteall(ctx,target):
+    temp = {}
+
+    with open("././records/quotes.json","r") as file:
+        temp = json.load(file)
+
+    quoteObj = {}
+
+    try:
+        if target:
+            quoteObj = random.choice(temp[ctx.channel.guild.id]['users'][str(target)]['quotes'])
+        else:
+            user = random.choice(temp[ctx.channel.guild.id]['users'].keys())
+            quoteObj = random.choice(temp[ctx.channel.guild.id]['users'][user]['quotes'])
+    except exception as e:
+        print("Error: "+e)
+        ctx.send("Didn't find anything matching that query.")
+        return
+        
+    ctx.send("Found something!")
+    print(quoteObj)
