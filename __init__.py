@@ -73,10 +73,6 @@ async def rename(ctx,target,nickname:str,reason=""):
     ]
 )
 async def getnicknames(ctx,target):
-    print(type(target))
-    print(type(ctx.author))
-    author = ctx.author
-    msg = ctx.message
     await renameModule.get_nicknames(ctx,target)
 
 @slash.slash(
@@ -111,7 +107,7 @@ async def addquote(ctx,target,quote,context=""):
 @slash.slash(
     name="getquote",
     # guild_ids=guild_ids,
-    description="Reflect back on the best things people said.",
+    description="Look back on the best things people said.",
     options=[
         create_option(
             name="where",
@@ -120,11 +116,11 @@ async def addquote(ctx,target,quote,context=""):
             required=True,
             choices=[
             create_choice(
-                name="Known Servers",
+                name="This Server Only",
                 value="0"
             ),
             create_choice(
-                name="This Server Only",
+                name="Known Servers",
                 value="1"
             )
         ]),
@@ -136,16 +132,17 @@ async def addquote(ctx,target,quote,context=""):
         )
     ]
 )
-async def getquote(ctx,target="",where="0"):
+async def getquote(ctx,target=None,where="0"):
     # new paradigm. 
     # opt specific user, if not from server
     # opt anywhere, if specific user get it from the all list, if no specific user, random from all list
     # if neither, random from server
     print(where,target)
     if where == "0":
-        quotesModule.getquotehere(ctx,target.id)
+        print("Get quote here")
+        await quotesModule.getquotehere(ctx,target,client)
     else:
-        quotesModule.getquoteall(ctx,target.id)
+        await quotesModule.getquoteall(ctx,target,client)
 
 @client.event
 async def on_ready():

@@ -1,138 +1,492 @@
 {
   "529806622105665556": {
     "meta": {
-      "name": "demo"
+      "name": "Aperture Testing Grounds"
     },
     "users": {
       "842948063139987476": {
         "quotes": [
           {
-            "quote": "Gonk",
+            "quote": "Gonk goes Gonk",
             "context": "",
             "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:31:42.836043",
-            "where": "demo"
+            "when": "2021-05-16 21:45:32.566276",
+            "where": "Aperture Testing Grounds"
           },
           {
-            "quote": "GonkTest",
-            "context": "",
+            "quote": "\"GONK GONK\"",
+            "context": "Gonk Context",
             "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:33:38.205045",
-            "where": "demo"
-          },
-          {
-            "quote": "gonk",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:36:51.314268",
-            "where": "demo"
-          },
-          {
-            "quote": "GONK",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:39:43.011909",
-            "where": "demo"
-          },
-          {
-            "quote": "test quote",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:49:14.976372",
-            "where": "demo"
-          },
-          {
-            "quote": "test",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:54:46.750342",
-            "where": "demo"
-          },
-          {
-            "quote": "tet",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:55:51.706214",
-            "where": "demo"
-          },
-          {
-            "quote": "tests",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:56:22.060804",
-            "where": "demo"
-          },
-          {
-            "quote": "blarg",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:56:59.303960",
-            "where": "demo"
-          },
-          {
-            "quote": "test",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:57:43.840774",
-            "where": "demo"
-          },
-          {
-            "quote": "test",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:58:01.638711",
-            "where": "demo"
-          },
-          {
-            "quote": "Gonk",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:58:44.471209",
-            "where": "demo"
-          },
-          {
-            "quote": "Test thing",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 11:59:25.714212",
-            "where": "demo"
-          },
-          {
-            "quote": "This is an actual Quote",
-            "context": "",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 12:00:17.859247",
-            "where": "demo"
-          },
-          {
-            "quote": "add actual quote",
-            "context": "Because im testing",
-            "chronicler": 408265348018864138,
-            "when": "2021-05-16 12:00:32.758899",
-            "where": "demo"
+            "when": "2021-05-16 21:46:52.186991",
+            "where": "Aperture Testing Grounds"
           }
         ]
       }
     }
   },
   "all": {
-    "408265348018864138": [
+    "842948063139987476": [
       {
-        "quote": "This is an actual Quote",
+        "quote": "Gonk goes Gonk",
         "context": "",
         "chronicler": 408265348018864138,
-        "when": "2021-05-16 12:00:17.859247",
-        "where": "demo"
+        "when": "2021-05-16 21:45:32.566276",
+        "where": "Aperture Testing Grounds"
+      },
+      {
+        "quote": "\"GONK GONK\"",
+        "context": "Gonk Context",
+        "chronicler": 408265348018864138,
+        "when": "2021-05-16 21:46:52.186991",
+        "where": "Aperture Testing Grounds"
+      }
+    ],
+    "182586772876689419": [
+      {
+        "quote": "\"galatians 4:16\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"i'm a big stinky doody head who can speak spanish perfectly\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"would you rather be trafficked or raped?\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"it\u2019s not just for the big guys here.\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"oh shit, it is today!\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"i don't have a subwoofer in my car to listen to podcasts.\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"scooby doo, do be dead.\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"father, forgive me it has been 10 years since my last confessment\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"they put so much penis in this\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"i found fulfillment. amazon fulfillment \ud83d\ude0e  \"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"10/10 would sleep w rem again\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"the cheese pills be hurtin me\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      }
+    ],
+    "348668135445889025": [
+      {
+        "quote": "\"can i have a damn emoji guys\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"i guess what were saying is we reaaallyyy wanna kick you haime\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"it's so sexy!! its got sexually transmitted disease!!!\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"ya nert?\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"cats are like the squirrels of indo\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"the cummers are strong\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"you guys know how there's electricity\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"the morning manager hates me, for no reason. and i really hope she fires me.\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"idk ,i dont know wii sports\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"i wanna eat them bitches\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"what do you call that tool... that looks like a gun... but you drill with it?\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"where's jaime? i want him to choke me.... verbally.\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"i'm a bad hooker\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"bet any of you guys could chuck me\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\":o we can pee on the graves!\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"a clogged pipe is just a fleshlight waiting to be relieved\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"commmmaaaaa~~~\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"that's right, all i need in life is pavan.\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"yokkos you have the power to make this a gangbang\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"i started looking at the other dogs' dicks\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"a guy came up to me and told me that cosmos was packing so i looked his dog's dick and cosmos's was definitely bigger.\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"why is the loli fighting back?\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"his packer was bigger than the greyhound\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"your penis still feels good\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      }
+    ],
+    "424399253226651659": [
+      {
+        "quote": "\"the shell has too much power\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"fml\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
       }
     ],
     "408265348018864138": [
       {
-        "quote": "add actual quote",
-        "context": "Because im testing",
+        "quote": "\"is that like for peppers?\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"you cant put a price on the tippy tappy\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"i'm in the state of chicago\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      }
+    ],
+    "223603236404199424": [
+      {
+        "quote": "\"i did the eenie minie moo strat, but it landed on me so that doesn't work\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"i have amazing poop muscles\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"nature is poggers\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"yeah i get told that alot by the kid i tried to murder\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      }
+    ],
+    "153357620911144960": [
+      {
+        "quote": "\"it displays 'yeet' or 'eat my ass'. i forget which - it's one of those.\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\" 'hey what up gays' - pav \"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"oh shit. put her on the feet wiki~~\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"hurry up, kill the bitch! >:o \"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"who's spongebob's third uncle!?!?!\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"yknow calling glory a bitch is kinda accurate\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      }
+    ],
+    "337966646914318337": [
+      {
+        "quote": "\"yeah i'll eat a door knob\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"idk i am brown and i am most sus always\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"she fucked a water cooler\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      }
+    ],
+    "622529435626635275": [
+      {
+        "quote": "\"imma break that bitch\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"bam\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"nothing\"",
+        "context": "",
+        "chronicler": "",
+        "when": "",
+        "where": ""
+      },
+      {
+        "quote": "\"test quote\"",
+        "context": "",
         "chronicler": 408265348018864138,
-        "when": "2021-05-16 12:00:32.758899",
-        "where": "demo"
+        "when": "2021-05-16 23:05:01.672005",
+        "where": "Wauk"
       }
     ]
+  },
+  "617153225476276228": {
+    "meta": {
+      "name": "Wauk"
+    },
+    "users": {
+      "622529435626635275": {
+        "quotes": [
+          {
+            "quote": "\"test quote\"",
+            "context": "",
+            "chronicler": 408265348018864138,
+            "when": "2021-05-16 23:05:01.672005",
+            "where": "Wauk"
+          }
+        ]
+      }
+    }
   }
 }

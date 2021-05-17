@@ -21,6 +21,7 @@ async def addquote(ctx,target,quote,context,by):
 
     #await message.channel.send("Roger Rogger. <@{}>".format(target))
 
+# Deprecate?
 # :shell: randomquote [@User] [any]
 async def randomquote(self, message):
 
@@ -90,7 +91,7 @@ async def updateQuotesJSON(ctx,target,quote,context,by):
     temp = {}
 
     serverID = str(ctx.channel.guild.id)
-    serverName = ctx.channel.name
+    serverName = ctx.channel.guild.name
     memberID = str(target.id)
     quote = str(quote)
     
@@ -130,10 +131,10 @@ async def updateQuotesJSON(ctx,target,quote,context,by):
         if 'all' not in temp.keys():
             temp['all'] = {}
 
-        if by.id not in temp['all'].keys():
-            temp['all'][by.id] = []
+        if memberID not in temp['all'].keys():
+            temp['all'][memberID] = []
 
-        temp['all'][by.id].append(obj)
+        temp['all'][memberID].append(obj)
         # temp[serverID]['all'].append(obj)
         temp[serverID]['users'][memberID]['quotes'].append(obj)
 
@@ -143,7 +144,6 @@ async def updateQuotesJSON(ctx,target,quote,context,by):
 
         json.dump(temp,file,indent=2)
         await embededQuoteStore(ctx,obj,target,by)
-
 
 async def embededQuoteStore(ctx,obj,target,author):
 
@@ -160,48 +160,112 @@ async def embededQuoteStore(ctx,obj,target,author):
     await ctx.send(embed=embed)
 
 # consider only quotes in this server
-def getquotehere(ctx,target):
+async def getquotehere(ctx,target,client):
 
     temp = {}
+    temp = utils.returnText('quotes')
 
-    with open("././records/quotes.json","r") as file:
-        temp = json.load(file)
+    thisServer = str(ctx.guild.id) 
+    user = ""
+
+    if thisServer not in temp.keys():
+        embed=discord.Embed(title="",description="Try the \"All Known Servers\" Option. Legacy quotes are there. If you think this is an error, go bug Jaime.")
+        embed.set_author(name="No quotes associated with this server!")
+        embed.set_thumbnail(url=client.user.avatar_url)
+
+  
+        await ctx.send(embed=embed)
+        return      
+
+    #acces User as Key
+    if not target:
+        try:
+            user = random.choice(list(temp[str(thisServer)]['users'].keys()))
+            print(user)
+
+            if not user:
+                embed=discord.Embed(title="",description="Failed to find a quote for {} in this server! If you think this is an error, go bug Jaime.".format(target.display_name))
+                embed.set_author(name="This user has no quotes associated with them here.".format(target.display_name,icon_url=target.avatar_url))
+                embed.set_thumbnail(url=target.avatar_url)
+
+                await ctx.send(embed=embed)
+                return
+                
+        except exception as e:
+            print("Error: "+e)  
+    else:
+        user = str(target.id)
+        print(user)
+
+        if user not in temp[str(thisServer)]['users'].keys():
+        
+            embed=discord.Embed(title="",description="Failed to find a quote for {} in this server! If you think this is an error, go bug Jaime.".format(target.display_name))
+            embed.set_author(name="This user has no quotes associated with them.".format(target.display_name,icon_url=target.avatar_url))
+            embed.set_thumbnail(url=target.avatar_url)
+
+            await ctx.send(embed=embed)
+            return
 
     quoteObj = {}
 
-    try:
-        if target:
-            quoteObj = random.choice(temp[ctx.channel.guild.id]['users'][str(target)]['quotes'])
-        else:
-            user = random.choice(temp[ctx.channel.guild.id]['users'].keys())
-            quoteObj = random.choice(temp[ctx.channel.guild.id]['users'][user]['quotes'])
-    except exception as e:
-        print("Error: "+e)
-        ctx.send("Didn't find anything matching that query.")
-        return
+    print(temp[str(thisServer)]['users'][str(user)]['quotes'])
+    quoteObj = random.choice(temp[str(thisServer)]['users'][str(user)]['quotes'])
 
-    ctx.send("Found something!")
+    userObj = client.get_user(int(user))
+
+    # TODO use a queue system to keep track of what users (quote?) we have already heard from recently
+
     print(quoteObj)
+    print(userObj)
+
+    embed=discord.Embed(title="", url=userObj.avatar_url, description=quoteObj['quote'],color=ctx.guild.get_member(int(user)).color)
+    embed.set_author(name="Found Quote for {}".format(userObj.display_name))
+    embed.set_thumbnail(url=userObj.avatar_url)
+
+    if context in quoteObj.keys() and quoteObj['context']:
+        embed.add_field(name="Recorded By", value=quoteObj['context'], inline=True)
+    await ctx.send(embed=embed)
 
 # consider quotes from all
-def getquoteall(ctx,target):
-    temp = {}
+async def getquoteall(ctx,target,client):
 
-    with open("././records/quotes.json","r") as file:
-        temp = json.load(file)
+    temp = {}
+    temp = utils.returnText('quotes')
+
+    user = ""
+
+    #acces User as Key
+    if not target:
+        try:
+            user = str(random.choice(list(temp['all'].keys())))
+            print(user)
+        except exception as e:
+            print("Error: "+e)
+    else:
+        user = str(target.id)
+
+        if user not in temp['all'].keys():
+        
+            embed=discord.Embed(title="",description="Failed to find a quote {}! If you think this is an error, go bug Jaime.")
+            embed.set_author(name="This user has no quotes associated with them.".format(target.display_name,icon_url=target.avatar_url))
+            embed.set_thumbnail(url=target.avatar_url)
+
+            await ctx.send(embed=embed)
+            return
 
     quoteObj = {}
 
-    try:
-        if target:
-            quoteObj = random.choice(temp[ctx.channel.guild.id]['users'][str(target)]['quotes'])
-        else:
-            user = random.choice(temp[ctx.channel.guild.id]['users'].keys())
-            quoteObj = random.choice(temp[ctx.channel.guild.id]['users'][user]['quotes'])
-    except exception as e:
-        print("Error: "+e)
-        ctx.send("Didn't find anything matching that query.")
-        return
-        
-    ctx.send("Found something!")
-    print(quoteObj)
+    print(temp['all'][str(user)])
+    quoteObj = random.choice(temp['all'][str(user)])
+
+    userObj = client.get_user(int(user))
+
+    # TODO use a queue system to keep track of what users (quote?) we have already heard from recently
+
+    embed=discord.Embed(title="", url=userObj.avatar_url, description=quoteObj['quote'],color=ctx.guild.get_member(int(user)).color)
+    embed.set_author(name="Found Quote for {}".format(userObj.display_name))
+    embed.set_thumbnail(url=userObj.avatar_url)
+
+    if context in quoteObj.keys() and quoteObj['context']:
+        embed.add_field(name="Recorded By", value=quoteObj['context'], inline=True)
+    await ctx.send(embed=embed)

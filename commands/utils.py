@@ -18,6 +18,7 @@ def options(string,option,value="",values=[]):
     
     return False
 
+#deprecate?
 def gatherUserByID(userID):
     temp = {}
     userID=str(userID)
@@ -53,3 +54,14 @@ def prettydate(x):
     pretty = "{}/{}/{} {}:{}".format(dt.month,dt.day,dt.year,dt.hour,dt.min)
     print(pretty)
     return pretty
+
+#just a wrapper for the json.load function
+def returnText(file):
+
+    temp = ""
+    
+    with open("././records/{}.json".format(file),"r") as file: 
+
+        temp = json.load(file)
+        
+    return temp

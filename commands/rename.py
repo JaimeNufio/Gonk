@@ -26,17 +26,37 @@ async def rename_target(ctx,author,target,nickname,reason=""):
         await updateNickNamesJSON(ctx,target,nickname,reason,author,currName)
 
 async def get_nicknames(ctx,target):
-    items = utils.gatherUserByID(target.id)
-    print(items)
-    output = "Nicknames found for {}:\n".format(target.name)
+    names = utils.returnText('names')
 
     try:
-        for i in range(len(items[0])):
-            output+="{} - {}\n".format(items[0][i],items[1][i])
-        await ctx.send(output)
+        names = names[str(target.id)]
     except:
-        await ctx.send("An error occured, chances are there just aren't nicknames for this user.\n\
-        idk. Bug Jaime about this.")
+        embed=discord.Embed(title="",description="No nicknames were found. If you think this is an error, go bug Jaime.",color=target.color)
+        embed.set_author(name="No Previous Names for {}!".format(target.display_name,icon_url=target.avatar_url))
+        embed.set_thumbnail(url=target.avatar_url)
+        await ctx.send(embed=embed)
+
+    items = ""
+
+    cnt = 0
+    for name in names:
+
+        cnt+=1
+        items += "{}".format(name['nickname'])
+
+        if len(items) >= 2040:
+            items+="."
+            break
+
+        elif cnt+1 <= len(names):
+            items+=", "
+        else:
+            items+="."
+
+    embed=discord.Embed(title="",description=items,color=target.color)
+    embed.set_author(name="Previous Names for {}:".format(target.display_name,icon_url=target.avatar_url))
+    embed.set_thumbnail(url=target.avatar_url)
+    await ctx.send(embed=embed)
    
 async def updateNickNamesJSON(ctx,target,name,reason,author,currName=""):
     
@@ -50,7 +70,7 @@ async def updateNickNamesJSON(ctx,target,name,reason,author,currName=""):
     
     with open("././records/names.json","r") as file: 
     
-        temp = json.load(file)
+        temp = json.load(file) 
 
     with open("././records/names.json","w") as file:
 
@@ -80,7 +100,9 @@ async def embededRenameStore(ctx,obj,target,author):
     print(obj)
 
     embed=discord.Embed(title="", url=author.avatar_url, color=author.color)
-    embed.set_author(name="{} renamed {}".format(author.display_name,obj['currentname']), icon_url=author.avatar_url)
+    embed.set_author(name="{} renamed {}".format(author.display_name,
+        obj['currentname']),
+        icon_url=author.avatar_url)
     embed.set_thumbnail(url=target.avatar_url)
 
     if "currentname" in obj.keys():

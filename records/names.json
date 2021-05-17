@@ -1,96 +1,3964 @@
 {
-  "287837534182965250": [
+  "622529435626635275": [
     {
-      "user": "287837534182965250",
-      "nickname": "AH",
+      "user": "622529435626635275",
+      "nickname": "Josh",
       "reason": "",
-      "renamer": "408265348018864138",
-      "when": "2021-05-16 01:34:08.692135",
-      "serverid": "529806622105665556",
-      "servername": "Aperture Testing Grounds",
-      "currentname": "mrSandman_"
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
     },
     {
-      "user": "287837534182965250",
-      "nickname": "rename",
+      "user": "622529435626635275",
+      "nickname": "fuck",
       "reason": "",
-      "renamer": "408265348018864138",
-      "when": "2021-05-16 01:34:50.410761",
-      "serverid": "529806622105665556",
-      "servername": "Aperture Testing Grounds",
-      "currentname": "mrSandman_"
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
     },
     {
-      "user": "287837534182965250",
-      "nickname": "Yarjelis",
+      "user": "622529435626635275",
+      "nickname": "Stupid Bot",
       "reason": "",
-      "renamer": "408265348018864138",
-      "when": "2021-05-16 01:36:00.089234",
-      "serverid": "529806622105665556",
-      "servername": "Aperture Testing Grounds",
-      "currentname": "mrSandman_"
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
     },
     {
-      "user": "287837534182965250",
-      "nickname": "Test",
+      "user": "622529435626635275",
+      "nickname": "stupid",
       "reason": "",
-      "renamer": "408265348018864138",
-      "when": "2021-05-16 01:38:36.452809",
-      "serverid": "529806622105665556",
-      "servername": "Aperture Testing Grounds",
-      "currentname": "Yarjelis"
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "Magic Conch Shell",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "bob",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "testing new name",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "testt",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "frick",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "ah",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "sds",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "rrrrr",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "hello",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "thing",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "Shell",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "dumb bot",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "dumb",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "MCS",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "Hates Amish",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "622529435626635275",
+      "nickname": "Steve",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "182586772876689419": [
+    {
+      "user": "182586772876689419",
+      "nickname": "Modelo Sickness",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "king of sucks-balls mountain",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "eh oh",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "pinky-winky",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "eeeh ooh",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "eeeh eeerr",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "TheSleepyGuy",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "asshole",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "cunt",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "bucket bitch",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "bucketest bitchest",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "0th loser",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Bad",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Sinister",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Antoine",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "silence boi",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Getting Off Soon",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "AHHHHHH",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Sally Tally",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Dumpster Kid",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Nintendo",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Day-Old HamDog",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "The Greatest Artesian",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "me no read dms 2",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "streaming now",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "El Peque\u00f1o",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "no sleep boi",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "\ud83e\udd54",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "PotatoBoi \ud83e\udd54 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Jaime's Grand Manager \ud83c\udf55",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Tone",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Tone \ud83c\udfb5 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "yEah, I LiKe CoCk \ud83d\udc14",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Weeb Par Excellence",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "My Boogies",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Yellow Tic-Tac",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Mr. Worldwide",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Wilmington",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "\ud83e\udd67 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Toner",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Flashlight Bitch",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "fLeShLiGht",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "COCK MOSQUITO",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Ham and Cheese",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "LOSERtone32_",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Hates Dbd",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Short Boy, in the front.",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Little Drummer Boi",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Resource Management Expert",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "xXx KUM XPLOZION xXx",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "this is how he looks",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Cockz",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Rigatoni",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "my rigga toni",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "birthday bitch \ud83c\udf82",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "the little pogchamp \ud83c\udfae",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "wrestle this pretzel \ud83e\udd68",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Sparkle \u2728 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Ronald Raygun \ud83d\udd2b ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Brad Pitt, From Friends",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "A Friend form Friends, Not Pitt",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Brain-Surgeon Lawyer",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Dick Milk \ud83d\udca6 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Vice President of Anime \ud83d\udc79 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "CAPRISUN \ud83d\udca6 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "World's Fastest Racist \ud83c\udfce\ufe0f ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "CAPRISUN \ud83d\udca6 \ud83d\udce6 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Gamer Boy Bathwater \ud83d\udec1 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Chicky Nuggie \ud83d\udc23",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Starving Gurl \ud83d\ude31",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Weebtuber \u26e9\ufe0f ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Repost Bot \ud83e\udd16 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Degenerate Shuba \ud83d\udc36 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Bad Cheese \ud83e\uddc0 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "milkncookiesc guy \ud83e\udd5b\ud83c\udf6a",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "348668135445889025": [
+    {
+      "user": "348668135445889025",
+      "nickname": "The Chinese Virus",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Rampagent",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Gasket",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "nert",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "G_____",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Subtract Fun",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "never geting aa dog",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "flory",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "needs jesus",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "also bad",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "just awful",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Inforrest",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Gloria",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Gloria Sharon",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Fuji Dad on Mt.Fuji",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Hikimos",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "test",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Busy",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "gsherzberger",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "\ud83d\udc7a",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "me no read dms",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "yo, shut up pav",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "\ud83c\udf3d",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "CornGirl \ud83c\udf3d",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "RoboMom\ud83e\udd16 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "DetectiveRoboMom\ud83d\udd75\ufe0f\u200d\u2640\ufe0f \ud83e\udd16 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Steam",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "FoSfO fOsFo!",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "PST/GMT-7",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Certified House Wife ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Accelerationist",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "\ud83e\udd58 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Dead",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Balls",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Jaime's Friend",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Blackgaze",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Chestnuts on an open fire",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "basic indie bitch",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "bIrThDaY gUrL \ud83c\udf82",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Regular day girl",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "eeg",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Dead By 1st Gen",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "NaN",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": ".NaN",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "teenage dirtbag, baby",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Glory Glory Hallelujah",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Lisa",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Dead to Me",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Glory Digger",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Dead to me",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Lisa Nufio",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "schedule doctor",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "yeet this yeast \ud83c\udf3e",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "has yeast infection \ud83c\udf3e",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Chernobyl Fleshlight \ud83d\udd26 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Voodoo Economics",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Voodoo Economics \ud83d\udcb8 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Lamborfeeties \ud83e\udd7e ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "this one is glory",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "To the mooooon! \ud83d\udc2e ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Rectum Compound \ud83c\udf7a",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Paint Licker \ud83d\udd8c\ufe0f ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Resident Tsundere \ud83d\ude33",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Compact Cube \ud83e\uddca",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Compact Companion \ud83e\uddca",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Bitch I'm a Cow \ud83d\udc2e ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Sagititties",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Clicky Titties \ud83d\udd8b\ufe0f ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Hey There Delilah",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Jaime is my Best Friend",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Onahole \ud83d\udd73\ufe0f",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "United Airlines Rep. \u2708\ufe0f",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Arancini",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "My Puppy Is Packing \ud83d\udc36",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Basically Jhaime \ud83d\udfe4 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "ehe  \ud83d\ude08 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "408265348018864138": [
+    {
+      "user": "408265348018864138",
+      "nickname": "Non-Essential",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Raw Cereal",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Daughter of My Dad",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Jamie",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "hung like a pea sized pee-pee",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "dropped as a baby",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "cnn ticker",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "napoleon complex",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "sussinktly asshole",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "final solution",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "bucket bitch",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "illegal name",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "wall street bets",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "in-house pastor",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "first loser",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "woke loser",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "the baddiest",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Professor Pericles",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Rabbi Pericles",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Chester",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "formerly known dutchy of Mexico",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": ".",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "deported",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Honda",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Jimacy",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "non threatening science boi",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Slender James",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Tripod Richard",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Christopher",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": " \ud83d\udc41\ufe0f \ud83d\udc44 \ud83d\udc41\ufe0f ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "peacemaker",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "pacemaker",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "ranch came first",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "\ud83c\udf51",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Peachboi \ud83c\udf51",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "peachBoi \ud83c\udf51",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "diAriA \ud83d\udca9",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Kazutrash",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Kazutrash\ud83d\uddd1\ufe0f",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Kazutrash \ud83d\uddd1\ufe0f\ud83e\udd0f",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "high velocity \ud83d\udc22",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "hymen velocity \ud83c\udf51 \ud83d\udc22 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "high velocity simping \ud83d\udc22 \ud83d\ude29 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Haime",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Jhaime \ud83c\udf36\ufe0f ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Glory's little brother",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Wasnt born for minions",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Mariah Carey",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "\ud83c\udf77",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "\ud83d\udc13",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "my little unfunny piece of shit",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "SimplyWonderfulChristTime",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "basic normie bitch",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Hane-Hane",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "nil.",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "THE Home Depot",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "juice",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "juic\u00e9",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "jizz\u00c9",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "dumbitch jizz\u00c9",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Can't take the truth",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "get 2020",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "First Class Hoe",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "take this cake \ud83c\udf82",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "soggy nugget \ud83d\udca6",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Brad Pitt, From Friends",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "get a furry 2020",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Furry Bitch",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Furry Bitch \ud83e\udd8a ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Degenerated List Lover \ud83d\udcdd",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "cancel 2020",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Microwaved Nugger \ud83e\udd54 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Riveting Fable Comrade \ud83d\udcda",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "GMIE \ud83e\uddfb \ud83d\udc50 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Da Real Animal Psycho Killer\ud83d\udd2a",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Da Realest FUBAR \ud83c\udf1a",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "FedEx Boi MF 2020",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Da Realest WEEB \ud83c\uddef\ud83c\uddf5",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "QAnon Code Monkey \ud83d\udc12",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Old Whitey from NE \ud83d\udd2b",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Jamieson of Johnny \ud83c\udf7e ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Her Carry \ud83d\udc51",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Thunder Thief \u26a1",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Basically Jhaime \ud83d\udfe4 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Pee Pee Piss Baby \ud83d\udc76",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Stupid Pee Pee Monkey \ud83d\udc12 \ud83d\udca6 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Sponsored by ExpressVPN \ud83d\udda7",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "408265348018864138",
+      "nickname": "Banana Massacre \ud83c\udf4c",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "191089261418774528": [
+    {
+      "user": "191089261418774528",
+      "nickname": "MILF denny's",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "191089261418774528",
+      "nickname": "Rum4DinDin",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "191089261418774528",
+      "nickname": "Rhaegar Targaryen",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "191089261418774528",
+      "nickname": "Ryan without a \ud83d\udc1d",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "191089261418774528",
+      "nickname": "Live Mas \ud83c\udf2e ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "600120138347315212": [
+    {
+      "user": "600120138347315212",
+      "nickname": "Parsec Spooky",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "600120138347315212",
+      "nickname": "Toilet Table \ud83d\udebd",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "600120138347315212",
+      "nickname": "Lightsaber pics now \u2694\ufe0f ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "600120138347315212",
+      "nickname": "Thermal Paste \ud83d\udda5\ufe0f ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "600120138347315212",
+      "nickname": "Risk of Craig Too \ud83d\udca7",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "600120138347315212",
+      "nickname": "Owns Hentai Games \ud83e\udd31",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "337966646914318337": [
+    {
+      "user": "337966646914318337",
+      "nickname": "bIRTHDAY bOI",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "FALsE bOi",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "oops",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "train killer 2",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "fuck off pav",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Fuckboi \ud83e\udd74 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Clanker",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Clanker\ud83e\udd16 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Cross-Faded \ud83d\udca8",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Vote me off first \ud83e\udd47 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Pav the first dead \ud83d\udc80",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Chocie 1 \ud83d\udd18 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "IG Thottie",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Heretic",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "hates women - incel - racist",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "tanbark",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Channel moderator",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "actually-shitting-\ud83d\udca9",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "solicit this biscuit \ud83c\udf6a",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Placenta \ud83c\udf5d ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Homeless Placenta \ud83c\udf5d ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Dick Paste \ud83e\udea8",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Dick Paste \ud83e\uddf1 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Not Glory's Friend \ud83d\ude22",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Glory's Only Friend",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Puppy Sandals \u2601\ufe0f",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Furry Incel \ud83d\udc31",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Todd",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Todd Howard",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Todd Fallout",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "The popular kid",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Puzzle Master \ud83e\udde9",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Frosty",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "New Glory \ud83d\udc80",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "No Ape Sex \ud83d\udc35",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "153357620911144960": [
+    {
+      "user": "153357620911144960",
+      "nickname": "wauk",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "train killer",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "train killer no i cant ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "wauk: killer of trains",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "BreadBoi \ud83c\udf5e ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Angry BreadBoi \ud83d\ude20 \ud83c\udf5e ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Senator Binks",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Senator Binks\ud83d\udc7d ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Based Amish",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Amish for Trump",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Based AF Amish",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Glory's only daughter, Amish",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Domestic Amish",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Christmas Daddy's Lap",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "elope this loaf \ud83c\udf5e ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "yeet this wheat \ud83c\udf5e ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": " Smelly this Tele \ud83d\udcfa ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "President of Anime \ud83c\udf59  ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Brandon Green",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Brandon Green \ud83c\udf4f",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "I Eat Short People \ud83d\ude21 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "TheBreadMan \ud83c\udf5e ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "TheBreadDaddyUWU\ud83c\udf5e",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "UI Jerkoff \ud83c\udf46 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Alooon",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "223603236404199424": [
+    {
+      "user": "223603236404199424",
+      "nickname": "!Imposter",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "LeafGirl \ud83c\udf41",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "MapleGirl \ud83c\udf41",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "RoboMapleGirl\ud83e\udd16 \ud83c\udf41",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Intervention \ud83d\udd25 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Bday Girl Yokkos \ud83c\udf82",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Yokkos",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "False",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Slowest Computer NA",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Hotdog King \ud83c\udf2d",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Batman",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "The Infamous Hacker 4chan",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Is it Christmas Yet",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Metal Yokkos",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Liquid Yokkos",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Tabernacle",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Also dead to me",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "collect this baguette \ud83e\udd56",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "cyberbully \ud83e\udd16 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Fun Shower Times \ud83d\udebf",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Snail Fucker \ud83d\udc0c",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "New Name Yokkos",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Bottom Bitch",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Nintendo Gameboy \ud83c\udfb2",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Stock Ticker \ud83d\udcc8",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "racist or something idk \ud83e\udd2c",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Cancelled \ud83d\ude16",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "April Fool \ud83e\udd21 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Fire Truck Go Weee Wooo \ud83d\ude92 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "Shapes are hard \ud83d\ude21 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "268164116391133184": [
+    {
+      "user": "268164116391133184",
+      "nickname": "Johnboi \ud83d\udcaa",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "268164116391133184",
+      "nickname": "Undead Johnboi \ud83d\udcaa",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "238132436146454528": [
+    {
+      "user": "238132436146454528",
+      "nickname": "Pav's Ryan",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "238132436146454528",
+      "nickname": "Pav's Ryan \ud83d\udd11 ",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "238132436146454528",
+      "nickname": "Better Name",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "138773765247991808": [
+    {
+      "user": "138773765247991808",
+      "nickname": "Brock",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "793152326641647656": [
+    {
+      "user": "793152326641647656",
+      "nickname": "bobert",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "steve",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "fff",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "x",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "fart",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "meh",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "y",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "fucK",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "ahhh",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "thing",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "alpha",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "beta",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "plurp",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "Roger Roger",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "test",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "test1",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "booP",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "booop",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "test?",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "test??",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "ah",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "ahh?",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "793152326641647656",
+      "nickname": "testing test",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "221113412103569409": [
+    {
+      "user": "221113412103569409",
+      "nickname": "Sasuke Uchiwa",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    },
+    {
+      "user": "221113412103569409",
+      "nickname": "Sasuke Uchiha",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
+    }
+  ],
+  "342753469569957890": [
+    {
+      "user": "342753469569957890",
+      "nickname": "Fucking Degenerate \ud83c\udf1f",
+      "reason": "",
+      "renamer": 0,
+      "when": "",
+      "serverid": "",
+      "servername": "",
+      "currentname": ""
     }
   ],
   "842948063139987476": [
     {
       "user": "842948063139987476",
-      "nickname": "new Gonk",
-      "reason": "",
+      "nickname": "\"New Gonk Name\"",
+      "reason": "Test Name",
       "renamer": "408265348018864138",
-      "when": "2021-05-16 11:37:43.895118",
-      "serverid": "529806622105665556",
-      "servername": "Aperture Testing Grounds",
-      "currentname": "Gonk"
-    },
-    {
-      "user": "842948063139987476",
-      "nickname": "GONK",
-      "reason": "",
-      "renamer": "408265348018864138",
-      "when": "2021-05-16 11:40:08.499195",
-      "serverid": "529806622105665556",
-      "servername": "Aperture Testing Grounds",
-      "currentname": "new Gonk"
-    },
-    {
-      "user": "842948063139987476",
-      "nickname": "gonk",
-      "reason": "",
-      "renamer": "408265348018864138",
-      "when": "2021-05-16 11:44:16.603354",
+      "when": "2021-05-16 12:58:39.162702",
       "serverid": "529806622105665556",
       "servername": "Aperture Testing Grounds",
       "currentname": "GONK"
-    },
-    {
-      "user": "842948063139987476",
-      "nickname": "gonk?",
-      "reason": "",
-      "renamer": "408265348018864138",
-      "when": "2021-05-16 11:44:51.703232",
-      "serverid": "529806622105665556",
-      "servername": "Aperture Testing Grounds",
-      "currentname": "gonk"
-    },
-    {
-      "user": "842948063139987476",
-      "nickname": "GONK",
-      "reason": "",
-      "renamer": "408265348018864138",
-      "when": "2021-05-16 11:48:28.743243",
-      "serverid": "529806622105665556",
-      "servername": "Aperture Testing Grounds",
-      "currentname": "gonk?"
     }
   ]
 }

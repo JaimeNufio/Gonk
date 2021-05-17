@@ -36,8 +36,7 @@ with open("records\quotes.json",'w') as where:
             "context":"",
             "chronicler":"",
             "when":"",
-            "serverid":"",
-            "servername":""
+            "where":""
         }
         print(quoteObj)
         place['all'][user].append(quoteObj)

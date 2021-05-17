@@ -26,13 +26,24 @@ with open("records/names.json",'w') as where:
 
         for nickname in obj[user]:
             nicknameObj = {
+                "user":user,
                 "nickname":nickname,
                 "reason":"",
                 "renamer":0,
                 "when":"",
                 "serverid":"",
-                "servername":""
+                "servername":"",
+                "currentname":""
             }
+
+            # "user":memberID,
+            # "nickname":name,
+            # "reason":reason,
+            # "renamer":str(author.id),
+            # "when":str(datetime.now() ),
+            # "serverid":str(serverID),
+            # "servername":serverName,
+            # "currentname":currName
 
             place[user].append(nicknameObj)
 
