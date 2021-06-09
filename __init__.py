@@ -11,6 +11,7 @@ import json
 from commands import utils
 from commands import quotes as quotesModule
 from commands import rename as renameModule
+from extras import conditions as extras
 
 intents = discord.Intents.default()
 intents.members = True
@@ -143,6 +144,12 @@ async def getquote(ctx,target=None,where="0"):
         await quotesModule.getquotehere(ctx,target,client)
     else:
         await quotesModule.getquoteall(ctx,target,client)
+
+@client.event
+async def on_message(message):
+    #lets handle things like emojis
+    await extras.handleEmoji(message,client)
+    await extras.handleOther(message,client)
 
 @client.event
 async def on_ready():

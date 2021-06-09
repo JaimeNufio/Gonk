@@ -246,7 +246,7 @@ async def getquoteall(ctx,target,client):
 
         if user not in temp['all'].keys():
         
-            embed=discord.Embed(title="",description="Failed to find a quote {}! If you think this is an error, go bug Jaime.")
+            embed=discord.Embed(title="",description="Failed to find a quote for {} in this server! If you think this is an error, go bug Jaime.".format(target.display_name))
             embed.set_author(name="This user has no quotes associated with them.".format(target.display_name,icon_url=target.avatar_url))
             embed.set_thumbnail(url=target.avatar_url)
 
@@ -259,6 +259,15 @@ async def getquoteall(ctx,target,client):
     quoteObj = random.choice(temp['all'][str(user)])
 
     userObj = client.get_user(int(user))
+
+    if not userObj:
+        embed=discord.Embed(title="",description="Failed to find a quote for {} in this server! If you think this is an error, go bug Jaime.".format(target.display_name))
+        embed.set_author(name="This user has no quotes associated with them. (UserObject was None.)".format(target.display_name,icon_url=target.avatar_url))
+        embed.set_thumbnail(url=target.avatar_url)
+
+
+        await ctx.send(embed=embed)
+        return
 
     # TODO use a queue system to keep track of what users (quote?) we have already heard from recently
 
