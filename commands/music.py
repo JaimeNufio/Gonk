@@ -66,15 +66,12 @@ async def AHHH(ctx,bot):
     server = ctx.guild
     voice_channel = server.voice_client
     try:
-        #filename = await YTDLSource.from_url("https://www.youtube.com/watch?v=gK6B7wweIWs", loop=bot.loop)
         voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a")) 
     except Exception as e:
         print(e)
     finally:
         time.sleep(3)
-        await leave(ctx,bot)
-
-        
+        await leave(ctx,bot)   
 
 async def leave(ctx,bot):
     voice_client = ctx.guild.voice_client
