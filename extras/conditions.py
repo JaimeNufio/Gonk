@@ -4,6 +4,9 @@ import json
 import random
 from datetime import datetime
 from discord.utils import get
+import asyncio
+
+from commands import music
 
 
 tone = "182586772876689419"
@@ -75,6 +78,10 @@ async def handleEmoji(ctx,bot):
         emoji = get(bot.emojis, name='NRGparty')
         await ctx.add_reaction(emoji)
 
+async def handleAHH(ctx,bot):
+
+    await music.AHH(ctx,bot)
+
 
 async def handleOther(ctx, bot):
     
@@ -85,7 +92,9 @@ async def handleOther(ctx, bot):
         print("Test")
         # await ctx.channel.send(";;play https://www.youtube.com/watch?v=gK6B7wweIWs")
         await ctx.reply("https://cdn.discordapp.com/attachments/779408020856635422/851946253063290930/aaaaahh-256.gif")
+        #await handleAHH(ctx,bot)
 
+        await music.AHH(ctx,bot)
 
 
     if len(ctx.mentions) < 1:
