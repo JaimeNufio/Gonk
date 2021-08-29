@@ -53,6 +53,7 @@ with open("credentials.json","r") as file:
         ),
     ]
 )
+
 async def rename(ctx,target,nickname:str,reason=""):
     print(type(target))
     print(type(ctx.author))

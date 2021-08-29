@@ -1,0 +1,5 @@
+discord_py_slash_command==3.0.1
+discord.py==1.7.3
+youtube_dl==2021.6.6
+discord==1.7.3
+python_dateutil==2.8.2

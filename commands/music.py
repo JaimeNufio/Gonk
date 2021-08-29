@@ -66,7 +66,9 @@ async def AHHH(ctx,bot):
     server = ctx.guild
     voice_channel = server.voice_client
     try:
-        voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a")) 
+        #For Windows, we just put ffmpeg exe in this same folder, lol
+        #voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a")) 
+        voice_channel.play(discord.FFmpegPCMAudio(source="ahhh.m4a")) 
     except Exception as e:
         print(e)
     finally:
