@@ -1,22 +1,69 @@
+from random import random
 import discord
 from . import utils
 from . import quotes
 from . import rename
+import json
+import re
 
-async def handle(obj, message):
 
-    split = (message.content).lower().split(" ")
+async def beg(ctx):
 
-    # print(obj)
-    # print(message)
+    x = random()
+    print(x)
+
+    if x > .85:
+        await ctx.reply("This bot supports Slash Commands! You should try them out!")
+
+async def dollar(ctx,client):
+    pass
+    # with open("././records/dollar.json","r") as file: 
+
+    #     temp = json.load(file)
+
+    #     try:
+    #         target = ctx.message.mentions[0]
+    #         if target in temp.keys():
+    #             temp[target] += 1
+    #         else:
+    #             temp[target] = 1
+
+    #         file.write(json.dumps(temp))
+            
+    #     except:
+    #         print("Oopsy Woopsy I made a fucky wucky")
+
+
+async def handleOld(ctx,client):
+
+    msg = ctx.message.content
+    split = msg.split(" ")
+
+    if not (split[0] == "🐚" or split[0] == ":shell:" or split[0] == "shell"):
+        return
+    else:
+        print("Shell Invoked:",msg)
 
     if split[1] == "rename":
-        await rename.rename(obj,message)
+        
+        target = ctx.message.mentions[0]
+        quote = re.findall(pattern="\".*\"",string=msg)[0][1:-1]
+        print("quote:",quote,"\ntarget:",target)
+        
+        await rename.rename_target(ctx,ctx.author,target,quote,"")
+        await beg(ctx)
 
-    if split[1] == "addquote":
-        await quotes.addquote(obj,message)
+    elif split[1] == "addquote":
+        
+        target = ctx.message.mentions[0]
+        quote = re.findall(pattern="\".*\"",string=msg)[0][1:-1]
+        print("quote",quote)
 
-    #option to specify user.
-    #option to specify server.
-    if split[1] == "randomquote":
-        await quotes.randomquote(obj,message)
+        await quotes.addquote(ctx,target,quote,"",ctx.author)        
+        await beg(ctx)
+
+    # #option to specify user.
+    # #option to specify server.
+    # if split[1] == "randomquote":
+    #     await quotes.randomquote(obj,ctx)
+
