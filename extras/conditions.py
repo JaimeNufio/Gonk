@@ -79,22 +79,60 @@ async def handleEmoji(ctx,bot):
         await ctx.add_reaction(emoji)
 
 async def handleAHH(ctx,bot):
+    await music.SummonVoice(ctx,bot,'ahh')
 
-    await music.AHH(ctx,bot)
-
+async def handleYUBIYUBI(ctx,bot):
+    await music.SummonVoice(ctx,bot,'yubi')
 
 async def handleOther(ctx, bot):
     
     text = ctx.content
 
+    #AHHHH
     pattern = re.compile("^[Aa]+[Hh]+$")
     if pattern.search(text):
-        print("Test")
-        # await ctx.channel.send(";;play https://www.youtube.com/watch?v=gK6B7wweIWs")
-        await ctx.reply("https://cdn.discordapp.com/attachments/779408020856635422/851946253063290930/aaaaahh-256.gif")
-        #await handleAHH(ctx,bot)
 
-        await music.AHH(ctx,bot)
+        await ctx.reply("https://cdn.discordapp.com/attachments/779408020856635422/851946253063290930/aaaaahh-256.gif")
+        await music.SummonVoice(ctx,bot,'ahh')
+
+    pattern = re.compile("^[yubi[\s]+]*$")
+    if pattern.search(text):
+        print("YUBI YUBI")
+        possible = [
+            "https://c.tenor.com/ytFbGN6IcbcAAAAM/korone.gif",
+            "https://i.pinimg.com/originals/cb/2b/d1/cb2bd1e53d29b0fcc6d9b739ca08af98.gif",
+            "https://i.pinimg.com/originals/3f/64/12/3f6412b65a797bde9b882bd07c43a244.gif",
+            "https://c.tenor.com/jppoy0e0yFsAAAAC/inugami-korone.gif"
+            ] 
+
+        await ctx.reply(random.choice(possible))
+        await music.SummonVoice(ctx,bot,'yubi')
+
+    pattern = re.compile("^(water in the fire)|(w[h*]+[y*]+)$")
+    if pattern.search(text):
+        print("WATER IN THE FIRE")
+        possible = [
+            "https://c.tenor.com/ytFbGN6IcbcAAAAM/korone.gif",
+            "https://i.pinimg.com/originals/cb/2b/d1/cb2bd1e53d29b0fcc6d9b739ca08af98.gif",
+            "https://i.pinimg.com/originals/3f/64/12/3f6412b65a797bde9b882bd07c43a244.gif",
+            "https://c.tenor.com/jppoy0e0yFsAAAAC/inugami-korone.gif"
+            ] 
+        await ctx.reply(random.choice(possible))
+        await music.SummonVoice(ctx,bot,'waterinthefire')
+
+    #WO[WOwo]+
+    pattern = re.compile("^wo[wo]+$")
+    if pattern.search(text.lower()):
+        print("WOWOWOWOWOWO")
+        possible = [
+            "https://c.tenor.com/ytFbGN6IcbcAAAAM/korone.gif",
+            "https://i.pinimg.com/originals/cb/2b/d1/cb2bd1e53d29b0fcc6d9b739ca08af98.gif",
+            "https://i.pinimg.com/originals/3f/64/12/3f6412b65a797bde9b882bd07c43a244.gif",
+            "https://c.tenor.com/jppoy0e0yFsAAAAC/inugami-korone.gif"
+            ] 
+        await ctx.reply(("WOW"+ ("OW"*(int(len(text)/2)))) +"\n"+random.choice(possible))
+        await music.SummonVoice(ctx,bot,'wow',len(text))
+
 
 
     if len(ctx.mentions) < 1:

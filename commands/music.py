@@ -46,7 +46,7 @@ class YTDLSource(discord.PCMVolumeTransformer):
         filename = data['title'] if stream else ytdl.prepare_filename(data)
         return filename
 
-async def AHH(ctx,bot):
+async def SummonVoice(ctx,bot,which,var=1): #which is a string
     if not ctx.author.voice:
         print("Step 1 Fail: trigger isn't in a voice channel")
         #await ctx.send("{} is not connected to a voice channel".format(ctx.author.name))
@@ -59,7 +59,15 @@ async def AHH(ctx,bot):
     done, pending = await asyncio.wait({task})
 
     if task in done:
-        await AHHH(ctx,bot)
+        
+        if which == "ahh":
+            await AHHH(ctx,bot)
+        if which == "yubi":
+            await YUBIYUBI(ctx,bot)
+        if which == "waterinthefire":
+            await WaterInTheFire(ctx,bot)
+        if which == 'wow':
+            await Wow(ctx,bot,var)
 
 async def AHHH(ctx,bot):
 
@@ -68,7 +76,7 @@ async def AHHH(ctx,bot):
     try:
         #For Windows, we just put ffmpeg exe in this same folder, lol
         #voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a")) 
-        voice_channel.play(discord.FFmpegPCMAudio(source="ahhh.m4a")) 
+        voice_channel.play(discord.FFmpegPCMAudio(source="./assets/sounds/ahhh.m4a")) 
     except Exception as e:
         print(e)
     finally:
@@ -82,3 +90,53 @@ async def leave(ctx,bot):
     else:
         await ctx.send("The bot is not connected to a voice channel.")
 
+async def Wow(ctx,bot,var):
+
+    server = ctx.guild
+    voice_channel = server.voice_client
+    try:
+        #For Windows, we just put ffmpeg exe in this same folder, lol
+        #voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a")) 
+        voice_channel.play(discord.FFmpegPCMAudio(source="./assets/sounds/wow.mp3")) 
+    except Exception as e:
+        print(e)
+    finally:
+        scale = 5 # how much to divide run time by (1 = string length)
+        base = 1
+        time.sleep(((15-base) if var/scale > (15-base) else var/scale)+base)
+        await leave(ctx,bot)  
+
+async def YUBIYUBI(ctx,bot):
+
+    server = ctx.guild
+    voice_channel = server.voice_client
+    try:
+        #For Windows, we just put ffmpeg exe in this same folder, lol
+        #voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a")) 
+        voice_channel.play(discord.FFmpegPCMAudio(source="./assets/sounds/yubiyubi.mp3")) 
+    except Exception as e:
+        print(e)
+    finally:
+        time.sleep(3)
+        await leave(ctx,bot)   
+
+async def WaterInTheFire(ctx,bot):
+
+    server = ctx.guild
+    voice_channel = server.voice_client
+    try:
+        #For Windows, we just put ffmpeg exe in this same folder, lol
+        #voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a")) 
+        voice_channel.play(discord.FFmpegPCMAudio(source="./assets/sounds/waterinthefire.mp3")) 
+    except Exception as e:
+        print(e)
+    finally:
+        time.sleep(3.75)
+        await leave(ctx,bot)  
+
+async def leave(ctx,bot):
+    voice_client = ctx.guild.voice_client
+    if voice_client.is_connected():
+        await voice_client.disconnect()
+    else:
+        await ctx.send("The bot is not connected to a voice channel.")
