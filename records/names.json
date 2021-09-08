@@ -951,6 +951,26 @@
       "serverid": "",
       "servername": "",
       "currentname": ""
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Logitech X Gaming RGB",
+      "reason": "smells like a baka",
+      "renamer": "408265348018864138",
+      "when": "2021-09-07 02:43:53.548014",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Wheezy \ud83d\udc27"
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Logitech X Gaming RGB \ud83c\udfae",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-09-07 02:44:29.476501",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Logitech X Gaming RGB"
     }
   ],
   "348668135445889025": [
@@ -1713,6 +1733,46 @@
       "serverid": "",
       "servername": "",
       "currentname": ""
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Lefty Truther",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-08-31 18:18:40.181115",
+      "serverid": "537130653129375744",
+      "servername": "Bench Buddies LLC",
+      "currentname": "Baja Blast \ud83c\udf2e"
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Marie Kondo",
+      "reason": "lego do not bring her joy",
+      "renamer": "408265348018864138",
+      "when": "2021-09-01 20:50:55.658838",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Bungus \ud83c\udf44"
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "OURoborUS \ud83d\udc0d",
+      "reason": "BUNGUS",
+      "renamer": "408265348018864138",
+      "when": "2021-09-03 11:45:01.977170",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Marie Kondo"
+    },
+    {
+      "user": "348668135445889025",
+      "nickname": "Boobees \ud83d\udc7b\ud83d\udc1d",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-09-07 02:25:01.494006",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "OURoborUS \ud83d\udc0d"
     }
   ],
   "408265348018864138": [
@@ -3061,6 +3121,16 @@
       "serverid": "",
       "servername": "",
       "currentname": ""
+    },
+    {
+      "user": "337966646914318337",
+      "nickname": "Pav, Seer of All Memez \ud83d\udd2e",
+      "reason": "",
+      "renamer": "153357620911144960",
+      "when": "2021-09-03 15:11:25.326924",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Bug Souls \ud83d\udc0c"
     }
   ],
   "153357620911144960": [
@@ -3313,6 +3383,36 @@
       "serverid": "",
       "servername": "",
       "currentname": ""
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Final Fantasy Femboy \ud83d\udc31",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-09-03 15:05:47.709930",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Spotify Spanich \ud83c\uddee\ud83c\uddf3"
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Semlls like a Baka  \ud83d\ude40",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-09-07 02:45:58.778967",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Final Fantasy Femboy \ud83d\udc31"
+    },
+    {
+      "user": "153357620911144960",
+      "nickname": "Kinda smells, like a baka \ud83d\ude40",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-09-07 02:47:37.042999",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Semlls like a Baka  \ud83d\ude40"
     }
   ],
   "223603236404199424": [
@@ -3615,6 +3715,16 @@
       "serverid": "",
       "servername": "",
       "currentname": ""
+    },
+    {
+      "user": "223603236404199424",
+      "nickname": "YES WE CANADA \ud83c\udf41",
+      "reason": "",
+      "renamer": "348668135445889025",
+      "when": "2021-09-01 22:57:43.270742",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "AR ACAB IC"
     }
   ],
   "268164116391133184": [
@@ -3959,6 +4069,18 @@
       "serverid": "529806622105665556",
       "servername": "Aperture Testing Grounds",
       "currentname": "GONK"
+    }
+  ],
+  "177945455433351169": [
+    {
+      "user": "177945455433351169",
+      "nickname": "Cursed Furbie \u2601\ufe0f",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-09-01 21:10:02.900569",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "electric_fusion15"
     }
   ]
 }

@@ -36,8 +36,11 @@ async def dollar(ctx,client):
 
 async def handleOld(ctx,client):
 
+    print("handleOld")
+
     msg = ctx.message.content
     split = msg.split(" ")
+    print(split)
 
     if not (split[0] == "🐚" or split[0] == ":shell:" or split[0] == "shell"):
         return
@@ -45,6 +48,8 @@ async def handleOld(ctx,client):
         print("Shell Invoked:",msg)
 
     if split[1] == "rename":
+
+        print(":shell: Rename invoked")
         
         target = ctx.message.mentions[0]
         quote = re.findall(pattern="\".*\"",string=msg)[0][1:-1]
