@@ -971,6 +971,26 @@
       "serverid": "617153225476276228",
       "servername": "Wauk",
       "currentname": "Logitech X Gaming RGB"
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "Subaru Outback Steakhouse \ud83d\ude99",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-09-09 18:03:20.459641",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Logitech X Gaming RGB \ud83c\udfae"
+    },
+    {
+      "user": "182586772876689419",
+      "nickname": "M\u00fcnster \ud83e\udd64\ud83e\uddc0",
+      "reason": "taking the love of sombrero's life",
+      "renamer": "348668135445889025",
+      "when": "2021-09-09 18:40:17.274141",
+      "serverid": "537130653129375744",
+      "servername": "Bench Buddies LLC",
+      "currentname": "no listen \ud83d\udc42"
     }
   ],
   "348668135445889025": [
@@ -4081,6 +4101,28 @@
       "serverid": "617153225476276228",
       "servername": "Wauk",
       "currentname": "electric_fusion15"
+    }
+  ],
+  "499565253210931201": [
+    {
+      "user": "499565253210931201",
+      "nickname": "Spook Patrol \ud83d\ude94\ud83d\udc7b",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-09-09 09:37:01.862641",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Thought Police \ud83e\udde0\ud83d\ude94"
+    },
+    {
+      "user": "499565253210931201",
+      "nickname": "Spook Patrol \ud83d\ude94\ud83d\udc7b",
+      "reason": "",
+      "renamer": "408265348018864138",
+      "when": "2021-09-09 09:37:30.862641",
+      "serverid": "617153225476276228",
+      "servername": "Wauk",
+      "currentname": "Spook Patrol \ud83d\ude94\ud83d\udc7b"
     }
   ]
 }

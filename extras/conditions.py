@@ -86,7 +86,7 @@ async def handleYUBIYUBI(ctx,bot):
 
 async def handleOther(ctx, bot):
     
-    text = ctx.content
+    text = ctx.content.lower()
 
     #AHHHH
     pattern = re.compile("^[Aa]+[Hh]+$")
@@ -108,7 +108,7 @@ async def handleOther(ctx, bot):
         await ctx.reply(random.choice(possible))
         await music.SummonVoice(ctx,bot,'yubi')
 
-    pattern = re.compile("^(water in the fire)|(w[h*]+[y*]+)$")
+    pattern = re.compile("^(water in the fire)|^(wh+y+)$")
     if pattern.search(text):
         print("WATER IN THE FIRE")
         possible = [
@@ -122,7 +122,7 @@ async def handleOther(ctx, bot):
 
     #WO[WOwo]+
     pattern = re.compile("^wo[wo]+$")
-    if pattern.search(text.lower()):
+    if pattern.search(text):
         print("WOWOWOWOWOWO")
         possible = [
             "https://c.tenor.com/ytFbGN6IcbcAAAAM/korone.gif",
