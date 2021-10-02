@@ -95,7 +95,7 @@ async def handleOther(ctx, bot):
         await ctx.reply("https://cdn.discordapp.com/attachments/779408020856635422/851946253063290930/aaaaahh-256.gif")
         await music.SummonVoice(ctx,bot,'ahh')
 
-    pattern = re.compile("^[yubi[\s]+]*$")
+    pattern = re.compile("^((yubi)[\s])+")
     if pattern.search(text):
         print("YUBI YUBI")
         possible = [
@@ -170,4 +170,17 @@ async def handleOther(ctx, bot):
                 "　。　　 　　　　ﾟ　　　.　    　　　. 　。　　 　　　　ﾟ　　　.　   \n" \
                 "    ,　　　　.　 .　　       . 。　　   。　. 　ﾟ　　　.　 。　　  \n" \
             )
+
+
+    #happy birthday!
+    pattern = re.compile("(happy birthday|hbd)")
+    if pattern.search(text.lower()):
+        itt = int((random.random()*20) + 100)
+        sum = "**Happy Birthday "+target.mention+"!**\n"
+        items = ['🎉','✨','🥳','🎈','🎇','🎊','🎆']
+        for i in range(itt):
+            sum += random.choice(items)
+        
+        await ctx.reply(sum)
+
 

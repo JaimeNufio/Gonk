@@ -148,6 +148,11 @@ async def getquote(ctx,target=None,where="0"):
 
 @client.event
 async def on_message(message):
+
+    if message.author.bot:
+        print("A bot spoke, ignoring.")
+        return
+
     #lets handle things like emojis
     await extras.handleEmoji(message,client)
     await extras.handleOther(message,client)
