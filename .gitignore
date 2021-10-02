@@ -2,3 +2,4 @@ credentials.json
 .vscode
 commands/__pycache__/*
 ffmpeg.exe
+firebase.json

@@ -12,6 +12,7 @@ from commands import utils
 from commands import quotes as quotesModule
 from commands import rename as renameModule
 from extras import conditions as extras
+from records import firestore
 
 intents = discord.Intents.default()
 intents.members = True
@@ -152,13 +153,24 @@ async def on_message(message):
     if message.author.bot:
         print("A bot spoke, ignoring.")
         return
+    
+    print(message.content)
 
     #lets handle things like emojis
     await extras.handleEmoji(message,client)
     await extras.handleOther(message,client)
 
+    firestore.AddData("messages",str(message.id),{
+        "author":message.author.id,
+        "channel":message.channel.id,
+        "guild":message.guild.id,
+        "content":message.content,
+        "datetime":message.created_at,
+    })
+
 @client.event
 async def on_ready():
+    firestore.init('firebase.json')
     print('Logged on as {0}!'.format(client.user))
 
 client.run(token)
