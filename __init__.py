@@ -112,21 +112,21 @@ async def addquote(ctx,target,quote,context=""):
     # guild_ids=guild_ids,
     description="Look back on the best things people said.",
     options=[
-        create_option(
-            name="where",
-            description="Consider quotes from all known servers?",
-            option_type=3,
-            required=True,
-            choices=[
-            create_choice(
-                name="This Server Only",
-                value="0"
-            ),
-            create_choice(
-                name="Known Servers",
-                value="1"
-            )
-        ]),
+        # create_option(
+        #     name="where",
+        #     description="Consider quotes from all known servers?",
+        #     option_type=3,
+        #     required=True,
+        #     choices=[
+        #     create_choice(
+        #         name="This Server Only",
+        #         value="0"
+        #     ),
+        #     create_choice(
+        #         name="Known Servers",
+        #         value="1"
+        #     )
+        # ]),
         create_option(
             name="target",
             description="Specify a user. If not, will be random.",
@@ -136,16 +136,14 @@ async def addquote(ctx,target,quote,context=""):
     ]
 )
 async def getquote(ctx,target=None,where="0"):
-    # new paradigm. 
-    # opt specific user, if not from server
-    # opt anywhere, if specific user get it from the all list, if no specific user, random from all list
-    # if neither, random from server
+
     print(where,target)
-    if where == "0":
-        print("Get quote here")
-        await quotesModule.getquotehere(ctx,target,client)
-    else:
-        await quotesModule.getquoteall(ctx,target,client)
+    await quotesModule.getQuoteFirebase(ctx,target,client)
+    # if where == "0":
+    #     print("Get quote here")
+    #     await quotesModule.getquotehere(ctx,target,client)
+    # else:
+    #     await quotesModule.getquoteall(ctx,target,client)
 
 @client.event
 async def on_message(message):
@@ -160,11 +158,14 @@ async def on_message(message):
     await extras.handleEmoji(message,client)
     await extras.handleOther(message,client)
 
-    firestore.AddData("messages",str(message.id),{
+    firestore.AddData("Messages",str(message.id),{
         "author":message.author.id,
         "channel":message.channel.id,
         "guild":message.guild.id,
         "content":message.content,
+        "embeded":str(message.embeds),
+        "attachments":str(message.attachments),
+        "jump_url":message.jump_url,
         "datetime":message.created_at,
     })
 

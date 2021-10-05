@@ -4,6 +4,7 @@ import json
 from datetime import datetime
 from discord import message
 from . import utils
+from records import firestore
 
 async def rename_target(ctx,author,target,nickname,reason=""):
 
@@ -23,7 +24,8 @@ async def rename_target(ctx,author,target,nickname,reason=""):
         print("Will rename user to {}".format(nickname))
         await target.edit(nick=nickname)
 
-        await updateNickNamesJSON(ctx,target,nickname,reason,author,currName)
+        #await updateNickNamesJSON(ctx,target,nickname,reason,author,currName)
+        await UpdateNicknamesFirestore(ctx,target,nickname,reason,author,currName)
 
 async def get_nicknames(ctx,target):
     names = utils.returnText('names')
@@ -93,6 +95,30 @@ async def updateNickNamesJSON(ctx,target,name,reason,author,currName=""):
         json.dump(temp,file,indent=2)
 
         await embededRenameStore(ctx,obj,target,author)
+
+async def UpdateNicknamesFirestore(ctx,target,name,reason,author,currName=""):
+    
+    serverID = str(ctx.channel.guild.id)
+    memberID = str(target.id)
+    serverName = ctx.guild.name
+    name = str(name)
+    reason = str(reason)
+
+    obj = {
+        "user":memberID,
+        "nickname":name,
+        "reason":reason,
+        "renamer":str(author.id),
+        "when":str(datetime.now() ),
+        "serverid":str(serverID),
+        "servername":serverName,
+        "currentname":currName
+    }
+
+    firestore.AddData("Nicknames",name,obj)
+    await embededRenameStore(ctx,obj,target,author)
+    
+
 
 #Only call when storing, I guess.
 async def embededRenameStore(ctx,obj,target,author):

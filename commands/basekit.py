@@ -67,8 +67,3 @@ async def handleOld(ctx,client):
         await quotes.addquote(ctx,target,quote,"",ctx.author)        
         await beg(ctx)
 
-    # #option to specify user.
-    # #option to specify server.
-    # if split[1] == "randomquote":
-    #     await quotes.randomquote(obj,ctx)
-
