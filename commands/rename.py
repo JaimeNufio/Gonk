@@ -117,8 +117,6 @@ async def UpdateNicknamesFirestore(ctx,target,name,reason,author,currName=""):
 
     firestore.AddData("Nicknames",name,obj)
     await embededRenameStore(ctx,obj,target,author)
-    
-
 
 #Only call when storing, I guess.
 async def embededRenameStore(ctx,obj,target,author):

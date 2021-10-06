@@ -51,6 +51,10 @@ def GetMetaCount(collection):
         print("failed to read META for collection {}".format(collection))
         return -1
 
+def Exists(collection,document):
+    doc_ref = db.collection(collection).document(document).get()
+
+    return doc_ref.exists
 
 #keeping track of the count of records in document
 def UpdateMetaCount(collection,delta=0):
