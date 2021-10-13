@@ -13,6 +13,7 @@ from commands import quotes as quotesModule
 from commands import rename as renameModule
 from extras import conditions as extras
 from records import firestore
+from extras import sus
 
 intents = discord.Intents.default()
 intents.members = True
@@ -144,6 +145,30 @@ async def getquote(ctx,target=None,where="0"):
     #     await quotesModule.getquotehere(ctx,target,client)
     # else:
     #     await quotesModule.getquoteall(ctx,target,client)
+
+@slash.slash(
+    # guild_ids=guild_ids,
+    name="amogus",
+    description="This is dumb. Blame Amish. I mean Jaime implemented, it but fuck amish lol.",
+    options=[
+        create_option(
+            name="url",
+            description="Image Url",
+            option_type=3,
+            required=True
+        ),
+        create_option(
+            name="size",
+            description="Width, Ideally 0 to 30, but you can try bigger. Might fail for larger values.",
+            option_type=4,
+            required=False
+        ),
+    ]
+)
+async def amogus(ctx,url,size=30):
+    await sus.sus(ctx,url,size)
+
+
 
 @client.event
 async def on_message(message):
