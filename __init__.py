@@ -14,6 +14,7 @@ from commands import rename as renameModule
 from extras import conditions as extras
 from records import firestore
 from extras import sus
+from extras import reminder
 
 intents = discord.Intents.default()
 intents.members = True
@@ -167,6 +168,40 @@ async def getquote(ctx,target=None,where="0"):
 )
 async def amogus(ctx,url,size=30):
     await sus.sus(ctx,url,size)
+
+@slash.slash(
+    # guild_ids=guild_ids,
+    name="remindme",
+    description="Reminder utility (W.I.P.).",
+    options=[
+        create_option(
+            name="message",
+            description="The reminder.",
+            option_type=3,
+            required=True
+        ),
+        create_option(
+            name="date",
+            description="Day to remind on. Format: MM/DD/YY",
+            option_type=3,
+            required=True
+        ),
+        create_option(
+            name="time",
+            description="Time to remind on. Format: 12:00",
+            option_type=3,
+            required=True
+        ),
+        create_option(
+            name="zone",
+            description="AM/PM. Default read as military time.",
+            option_type=3,
+            required=False
+        ),
+    ]
+)
+async def remindme(ctx,message,date,time,zone=""):
+    await reminder.setReminder(client,ctx,date,time,zone,message)
 
 
 

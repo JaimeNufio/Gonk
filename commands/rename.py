@@ -129,7 +129,8 @@ async def embededRenameStore(ctx,obj,target,author):
         icon_url=author.avatar_url)
     embed.set_thumbnail(url=target.avatar_url)
 
+    embed.add_field(name="New Name:", value=obj['nickname'], inline=True)
     if "currentname" in obj.keys():
         embed.add_field(name="Previous Name:", value=obj['currentname'], inline=True)
-    embed.add_field(name="New Name:", value=obj['nickname'], inline=True)
+    
     await ctx.send(embed=embed)
