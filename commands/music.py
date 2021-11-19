@@ -68,6 +68,8 @@ async def SummonVoice(ctx,bot,which,var=1): #which is a string
             await WaterInTheFire(ctx,bot)
         if which == 'wow':
             await Wow(ctx,bot,var)
+        if which == 'cum':
+            await Cum(ctx,bot,var)
 
 async def AHHH(ctx,bot):
 
@@ -104,6 +106,20 @@ async def Wow(ctx,bot,var):
         scale = 5 # how much to divide run time by (1 = string length)
         base = 1
         time.sleep(((15-base) if var/scale > (15-base) else var/scale)+base)
+        await leave(ctx,bot)  
+
+async def Cum(ctx,bot,var):
+
+    server = ctx.guild
+    voice_channel = server.voice_client
+    try:
+        #For Windows, we just put ffmpeg exe in this same folder, lol
+        #voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a")) 
+        voice_channel.play(discord.FFmpegPCMAudio(source="./assets/sounds/cyberpunk_sound.mp3")) 
+    except Exception as e:
+        print(e)
+    finally:
+        time.sleep(4)
         await leave(ctx,bot)  
 
 async def YUBIYUBI(ctx,bot):

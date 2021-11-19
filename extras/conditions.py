@@ -133,6 +133,25 @@ async def handleOther(ctx, bot):
         await ctx.reply(("WOW"+ ("OW"*(int(len(text)/2)))) +"\n"+random.choice(possible))
         await music.SummonVoice(ctx,bot,'wow',len(text))
 
+    pattern = re.compile("(.*come.*)|(.*cum.*)")
+    if pattern.search(text):
+        possible = [
+            "https://i.ytimg.com/vi/adF2yzBRMEI/maxresdefault.jpg",
+            "https://i.pinimg.com/474x/b2/b5/0b/b2b50b56bb3141c9b6997ad59b6b8016.jpg",
+            "https://i.ytimg.com/vi/-qSJcKoUwWs/maxresdefault.jpg",
+            "http://geekxgirls.com/images/_articles2/cyberpunk-2077-memes-02.jpg",
+            "https://i.kym-cdn.com/entries/icons/original/000/030/115/cover4.jpg",
+            "https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png",
+            "https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png",
+            ] 
+
+        pattern1 = re.compile(".*(?=com)|.*(?=cum)")    
+        # trigger = text.find(pattern1.search(text).group(0))
+        # print( trigger[0])
+        trigger=""
+
+        await ctx.reply((trigger.upper()+" CUM \n"+random.choice(possible)))
+        await music.SummonVoice(ctx,bot,'cum',len(text))
 
 
     if len(ctx.mentions) < 1:
