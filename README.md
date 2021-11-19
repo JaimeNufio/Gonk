@@ -58,6 +58,10 @@ Stores a new ```message``` to be sent in the channel the request was made at ```
 
 The bot listens to incoming messages passively and will interact intermittently with users based on what regex strings it matches in read messages.
 
+When triggered these actions consist from anything from hidden messages, to speaking up in the voice channel.
+
 Data it collects are stored on Google Firebase.
 
+## Technology
 
+Built in Python, leverages FFMPEG
