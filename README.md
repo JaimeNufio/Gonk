@@ -1,3 +1,8 @@
+<div align="">
+<img src="https://styles.redditmedia.com/t5_25dntv/styles/communityIcon_j5f2meynqfo31.png" height="100" margin-right="50"></img>
+  <img src="https://www.ekwb.com/wp-content/uploads/2017/07/Discord.png" height="100"></img>
+</div>
+
 # Gonk
 
 Discord Bot for my personal Servers.
