@@ -134,7 +134,8 @@ async def handleOther(ctx, bot):
         await music.SummonVoice(ctx,bot,'wow',len(text))
 
     pattern = re.compile("(.*come.*)|(.*cum.*)")
-    if pattern.search(text):
+    patternForce = re.compile(".*cum.*")
+    if (pattern.search(text) and random.random() > .85) or patternForce.search(text):
         possible = [
             "https://i.ytimg.com/vi/adF2yzBRMEI/maxresdefault.jpg",
             "https://i.pinimg.com/474x/b2/b5/0b/b2b50b56bb3141c9b6997ad59b6b8016.jpg",
