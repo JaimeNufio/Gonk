@@ -29,7 +29,7 @@ async def handleEmoji(ctx,bot):
         await ctx.add_reaction(emoji)
 
     #kanye
-    pattern = re.compile("(.)*ye(.)*")
+    pattern = re.compile("(.)*\sye\s(.)*")
     if pattern.search(text):
         emoji = get(bot.emojis, name='kanye')
         await ctx.add_reaction(emoji)
