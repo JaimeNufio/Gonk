@@ -17,22 +17,6 @@ async def beg(ctx):
 
 async def dollar(ctx,client):
     pass
-    # with open("././records/dollar.json","r") as file: 
-
-    #     temp = json.load(file)
-
-    #     try:
-    #         target = ctx.message.mentions[0]
-    #         if target in temp.keys():
-    #             temp[target] += 1
-    #         else:
-    #             temp[target] = 1
-
-    #         file.write(json.dumps(temp))
-            
-    #     except:
-    #         print("Oopsy Woopsy I made a fucky wucky")
-
 
 async def handleOld(ctx,client):
 

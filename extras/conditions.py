@@ -78,6 +78,46 @@ async def handleEmoji(ctx,bot):
         emoji = get(bot.emojis, name='NRGparty')
         await ctx.add_reaction(emoji)
 
+    #merry christmas
+    pattern = re.compile("(merry|happy|feliz)\s(christmas|navidad|holidays)")
+    if pattern.search(text.lower()):
+        print("Trigger Merry Christmas")
+        itt = int((random.random()*20) + 100)
+        sum = "**"+text.upper()+"!**\n"
+        items = ['🎅','❄️','❄️','❄️','👼','☃️','☃️','🧝','🎄','🎁','🎁','🎁','🌟','🌟','🌟','🧝','🤶']
+        songs = [
+           "https://www.youtube.com/watch?v=yXQViqx6GMY",
+           "https://www.youtube.com/watch?v=E8gmARGvPlI",
+           "https://www.youtube.com/watch?v=0bhsXykXxfg",
+           "https://www.youtube.com/watch?v=AN_R4pR1hck",
+           "https://www.youtube.com/watch?v=y3E1GDSzIak",
+           "https://www.youtube.com/watch?v=hLf0-lro8X8",
+           "https://www.youtube.com/watch?v=l1wHyMR_SCA",
+           "https://www.youtube.com/watch?v=N8NcQzMQN_U"           
+
+        ]
+        for i in range(itt):
+            sum += random.choice(items)+" "
+        
+        sum+="\n"+random.choice(songs)
+        await ctx.reply(sum)
+
+    pattern = re.compile("(happy)\s(new)\s(year)")
+    if pattern.search(text.lower()):
+        print("Trigger Happy New Years")
+        itt = int((random.random()*20) + 100)
+        sum = "**"+text.upper()+"!**\n"
+        items = [
+            '🎇', '🎊','🎈','🎉','🎆','🍺','🥂'
+        ]
+        songs = [        
+
+        ]
+        for i in range(itt):
+            sum += random.choice(items)+" "
+        
+        await ctx.reply(sum)
+
 async def handleAHH(ctx,bot):
     await music.SummonVoice(ctx,bot,'ahh')
 
@@ -88,14 +128,16 @@ async def handleOther(ctx, bot):
     
     text = ctx.content.lower()
 
-    #AHHHH
     pattern = re.compile("^[Aa]+[Hh]+$")
     if pattern.search(text):
-
+        print("Test")
+        # await ctx.channel.send(";;play https://www.youtube.com/watch?v=gK6B7wweIWs")
         await ctx.reply("https://cdn.discordapp.com/attachments/779408020856635422/851946253063290930/aaaaahh-256.gif")
-        await music.SummonVoice(ctx,bot,'ahh')
+        #await handleAHH(ctx,bot)
 
-    pattern = re.compile("^((yubi)[\s])+")
+        await music.AHH(ctx,bot)
+
+    pattern = re.compile("^[yubi[\s]+]*$")
     if pattern.search(text):
         print("YUBI YUBI")
         possible = [
@@ -104,7 +146,6 @@ async def handleOther(ctx, bot):
             "https://i.pinimg.com/originals/3f/64/12/3f6412b65a797bde9b882bd07c43a244.gif",
             "https://c.tenor.com/jppoy0e0yFsAAAAC/inugami-korone.gif"
             ] 
-
         await ctx.reply(random.choice(possible))
         await music.SummonVoice(ctx,bot,'yubi')
 
@@ -132,27 +173,6 @@ async def handleOther(ctx, bot):
             ] 
         await ctx.reply(("WOW"+ ("OW"*(int(len(text)/2)))) +"\n"+random.choice(possible))
         await music.SummonVoice(ctx,bot,'wow',len(text))
-
-    pattern = re.compile("(.*come.*)|(.*cum.*)")
-    patternForce = re.compile(".*cum.*")
-    if (pattern.search(text) and random.random() > .85) or patternForce.search(text):
-        possible = [
-            "https://i.ytimg.com/vi/adF2yzBRMEI/maxresdefault.jpg",
-            "https://i.pinimg.com/474x/b2/b5/0b/b2b50b56bb3141c9b6997ad59b6b8016.jpg",
-            "https://i.ytimg.com/vi/-qSJcKoUwWs/maxresdefault.jpg",
-            "http://geekxgirls.com/images/_articles2/cyberpunk-2077-memes-02.jpg",
-            "https://i.kym-cdn.com/entries/icons/original/000/030/115/cover4.jpg",
-            "https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png",
-            "https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png","https://www.cnet.com/a/img/2XrAF_OvmrPgyVrmc-VdTrdluFQ=/2019/06/09/fd028156-e5c5-401f-820a-57f5fa32338e/cyberpunk-2077-keanu-reeves-glasses-e3.png",
-            ] 
-
-        pattern1 = re.compile(".*(?=com)|.*(?=cum)")    
-        # trigger = text.find(pattern1.search(text).group(0))
-        # print( trigger[0])
-        trigger=""
-
-        await ctx.reply((trigger.upper()+" CUM \n"+random.choice(possible)))
-        await music.SummonVoice(ctx,bot,'cum',len(text))
 
 
     if len(ctx.mentions) < 1:
@@ -202,5 +222,3 @@ async def handleOther(ctx, bot):
             sum += random.choice(items)
         
         await ctx.reply(sum)
-
-
