@@ -61,6 +61,7 @@ async def SummonVoice(ctx,bot,which,var=1): #which is a string
     if task in done:
         
         if which == "ahh":
+            print("AHHH TRIGGER")
             await AHHH(ctx,bot)
         if which == "yubi":
             await YUBIYUBI(ctx,bot)
@@ -77,16 +78,25 @@ async def AHHH(ctx,bot):
     voice_channel = server.voice_client
     try:
         #For Windows, we just put ffmpeg exe in this same folder, lol
-        #voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a")) 
-        voice_channel.play(discord.FFmpegPCMAudio(source="./assets/sounds/ahhh.m4a")) 
+        #voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a"))
+
+        if voice_channel: 
+            voice_channel.play(discord.FFmpegPCMAudio(source="./assets/sounds/ahhh.mp3")) 
+
     except Exception as e:
         print(e)
+        await ctx.send(e)
     finally:
-        time.sleep(3)
-        await leave(ctx,bot)   
+        if voice_channel:
+            time.sleep(4)
+            await leave(ctx,bot)   
 
 async def leave(ctx,bot):
     voice_client = ctx.guild.voice_client
+
+    if not voice_client:
+        await ctx.send("AHHHH?")
+
     if voice_client.is_connected():
         await voice_client.disconnect()
     else:
@@ -150,9 +160,10 @@ async def WaterInTheFire(ctx,bot):
         time.sleep(3.75)
         await leave(ctx,bot)  
 
-async def leave(ctx,bot):
-    voice_client = ctx.guild.voice_client
-    if voice_client.is_connected():
-        await voice_client.disconnect()
-    else:
-        await ctx.send("The bot is not connected to a voice channel.")
+# async def leave(ctx,bot):
+#     voice_client = ctx.guild.voice_client
+#     if voice_client.is_connected():
+
+#         await voice_client.disconnect()
+#     else:
+#         await ctx.send("The bot is not connected to a voice channel.")
