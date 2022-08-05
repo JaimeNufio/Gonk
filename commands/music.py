@@ -1,12 +1,16 @@
+from grpc import Channel
 import discord
 import re
 import json
 from datetime import datetime
 from discord import message
+import pyttsx3
+
 
 import youtube_dl
 import asyncio
 import time
+import os
 
 youtube_dl.utils.bug_reports_message = lambda: ''
 
@@ -160,10 +164,22 @@ async def WaterInTheFire(ctx,bot):
         time.sleep(3.75)
         await leave(ctx,bot)  
 
-# async def leave(ctx,bot):
-#     voice_client = ctx.guild.voice_client
-#     if voice_client.is_connected():
 
-#         await voice_client.disconnect()
-#     else:
-#         await ctx.send("The bot is not connected to a voice channel.")
+async def speak(ctx,text):
+
+
+    channel = ctx.author.voice.channel
+    vc = await channel.connect()
+
+    try:
+        #For Windows, we just put ffmpeg exe in this same folder, lol
+        #voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source="ahhh.m4a")) 
+        # channel.play(discord.FFmpegPCMAudio(source="./assets/sounds/yubiyubi.mp3")) 
+        player = vc.create_ffmpeg_player('vuvuzela.mp3', after=lambda: print('done'))
+        player.start()
+    except Exception as e:
+        print(e)
+    finally:
+        time.sleep(3)
+        await ctx.voice_client.disconnect()
+# 

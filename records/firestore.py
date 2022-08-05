@@ -1,3 +1,4 @@
+import pprint
 from typing import final
 import firebase_admin
 import json
@@ -83,3 +84,6 @@ def GetQuotes(guild,who=None):
 
     print(x)
     return x
+
+def GetNicknameHistoryStream():
+    return db.collection('Nicknames').stream()

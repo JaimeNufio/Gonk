@@ -11,10 +11,12 @@ import json
 from commands import utils
 from commands import quotes as quotesModule
 from commands import rename as renameModule
+from commands import music as musicModule
 from extras import conditions as extras
 from records import firestore
 from extras import sus
 from extras import reminder
+from extras import tts
 
 intents = discord.Intents.default()
 intents.members = True
@@ -203,7 +205,20 @@ async def amogus(ctx,url,size=30):
 async def remindme(ctx,message,date,time,zone=""):
     await reminder.setReminder(client,ctx,date,time,zone,message)
 
-
+@slash.slash(
+    name="speak",
+    description="TTS Utility for Voice Channels",
+    options=[
+        create_option(
+            name="text",
+            description="What to say.",
+            option_type=3,
+            required=True
+        ),
+    ]
+)
+async def speak(ctx,text):
+    await musicModule.speak(ctx,text)
 
 @client.event
 async def on_message(message):

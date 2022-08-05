@@ -50,4 +50,3 @@ async def handleOld(ctx,client):
 
         await quotes.addquote(ctx,target,quote,"",ctx.author)        
         await beg(ctx)
-
